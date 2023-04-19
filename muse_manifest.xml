@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681840680328">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681906062021">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="68557800" ref="index"/>
+    <file name="index.css" crc="224541289" ref="index"/>
     <file name="______-___-____-__-______.css" crc="3808590578" ref="товари-для-саду-та-городу"/>
   </folder>
   <folder name="scripts">
@@ -12,11 +12,6 @@
     <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index:товари-для-саду-та-городу"/>
-    <file name="webpro.js" crc="4059564322" ref="index"/>
-    <file name="form_check.php" crc="4020933626" ref="index"/>
-    <file name="form_throttle.php" crc="4259590256" ref="index"/>
-    <file name="form_process.php" crc="37464564" ref="index"/>
-    <file name="form-u197.php" crc="4146562465" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:товари-для-саду-та-городу"/>
     <file name="require.js" crc="7928878" ref="index:товари-для-саду-та-городу"/>
   </folder>
@@ -25,6 +20,6 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="209420472" seo="true" mt="1681840679739" redirect="true"/>
-  <file name="товари-для-саду-та-городу.html" crc="21661348" seo="true" mt="1681838795987" redirect="true"/>
+  <file name="index.html" crc="3941509972" seo="true" mt="1681906038794" redirect="true"/>
+  <file name="товари-для-саду-та-городу.html" crc="3828923410" seo="true" mt="1681838795987" redirect="true"/>
 </manifest>
