@@ -1,25 +1,33 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681911174714">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681936074938">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="183590200" ref="index"/>
-    <file name="tovari-sad.css" crc="3808590578" ref="tovari-sad"/>
+    <file name="tovari-sad.css" crc="234248109" ref="tovari-sad"/>
+    <file name="index.css" crc="3876954929" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:tovari-sad"/>
     <file name="museutils.js" crc="340535759" ref="index:tovari-sad"/>
     <file name="whatinput.js" crc="86476730" ref="index:tovari-sad"/>
     <file name="museconfig.js" crc="4286661555" ref="index:tovari-sad"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
     <file name="jquery.watch.js" crc="51536988" ref="index:tovari-sad"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:tovari-sad"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:tovari-sad"/>
     <file name="require.js" crc="7928878" ref="index:tovari-sad"/>
   </folder>
   <folder name="images">
+    <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u498-fr.png" crc="353073386" ref="index"/>
+    <file name="fon.jpg" crc="323525142" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.jpg" crc="13369785" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="foto.jpg" crc="84274530" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="491853186" seo="true" mt="1681911118722" redirect="true"/>
-  <file name="tovari-sad.html" crc="121662884" seo="true" mt="1681909997843" redirect="true"/>
+  <file name="index.html" crc="386586437" seo="true" mt="1681936039554" redirect="true"/>
+  <file name="tovari-sad.html" crc="96059093" seo="true" mt="1681935692161" redirect="true"/>
 </manifest>
