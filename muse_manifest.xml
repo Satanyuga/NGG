@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681941747354">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681942624687">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="449228779" ref="tovari-sad:tovari-sad1:index"/>
@@ -52,13 +52,13 @@
   <folder name="tablet">
     <folder name="css">
       <file name="master_______-a.css" crc="159725141" ref="tablet>tovari-sad1:tablet>tovari-sad:tablet>index"/>
-      <file name="tovari-sad1.css" crc="315669584" ref="tablet>tovari-sad1"/>
-      <file name="tovari-sad.css" crc="315669584" ref="tablet>tovari-sad"/>
-      <file name="index.css" crc="4291185273" ref="tablet>index"/>
+      <file name="tovari-sad1.css" crc="3769272987" ref="tablet>tovari-sad1"/>
+      <file name="tovari-sad.css" crc="3769272987" ref="tablet>tovari-sad"/>
+      <file name="index.css" crc="280546031" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="222489088" seo="true" mt="1681941742583" redirect="true"/>
-    <file name="tovari-sad1.html" crc="465871195" seo="true" mt="1681941742583" redirect="true"/>
-    <file name="tovari-sad.html" crc="88232214" seo="true" mt="1681941742583" redirect="true"/>
+    <file name="index.html" crc="79633651" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="tovari-sad1.html" crc="448133055" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="tovari-sad.html" crc="285567398" seo="true" mt="1681941932799" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
@@ -67,9 +67,9 @@
       <file name="index.css" crc="4119554052" ref="phone>index"/>
       <file name="tovari-sad.css" crc="4031951517" ref="phone>tovari-sad"/>
     </folder>
-    <file name="index.html" crc="4201554160" seo="true" mt="1681941742580" redirect="true"/>
-    <file name="tovari-sad1.html" crc="3819310792" seo="true" mt="1681941742580" redirect="true"/>
-    <file name="tovari-sad.html" crc="3905590975" seo="true" mt="1681941742580" redirect="true"/>
+    <file name="index.html" crc="4201554160" seo="true" mt="1681942561981" redirect="true"/>
+    <file name="tovari-sad1.html" crc="3819310792" seo="true" mt="1681942511412" redirect="true"/>
+    <file name="tovari-sad.html" crc="3905590975" seo="true" mt="1681942511413" redirect="true"/>
   </folder>
   <file name="tovari-sad1.html" crc="115437529" seo="true" mt="1681941742581" redirect="true"/>
   <file name="tovari-sad.html" crc="33416477" seo="true" mt="1681941742582" redirect="true"/>
