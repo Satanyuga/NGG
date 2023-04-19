@@ -6,6 +6,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://ngg.pp.ua/tablet/index.html"/>
   </url>
   <url>
     <loc>http://ngg.pp.ua/tovari-sad1.html</loc>
@@ -13,6 +14,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/tovari-sad1.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://ngg.pp.ua/tablet/tovari-sad1.html"/>
   </url>
   <url>
     <loc>http://ngg.pp.ua/tovari-sad.html</loc>
@@ -20,5 +22,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/tovari-sad.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://ngg.pp.ua/tablet/tovari-sad.html"/>
   </url>
 </urlset>
