@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681942624687">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681943070667">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="449228779" ref="tovari-sad:tovari-sad1:index"/>
-    <file name="tovari-sad.css" crc="4147608764" ref="tovari-sad"/>
-    <file name="tovari-sad1.css" crc="525099896" ref="tovari-sad1"/>
-    <file name="index.css" crc="4174239289" ref="index"/>
+    <file name="master_______-a.css" crc="74516209" ref="tovari-sad1:index:tovari-sad"/>
+    <file name="tovari-sad1.css" crc="4112499924" ref="tovari-sad1"/>
+    <file name="index.css" crc="184862569" ref="index"/>
+    <file name="tovari-sad.css" crc="406126535" ref="tovari-sad"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
@@ -22,8 +22,8 @@
     <file name="fon.jpg" crc="323525142" ref="phone>index:tablet>index:tovari-sad1:tovari-sad">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
     </file>
     <file name="logo.jpg" crc="523413141" ref="phone>index:tablet>index:tovari-sad1">
       <caption webpage="index" alt=""/>
@@ -42,36 +42,36 @@
     <file name="foto-u1274-fr.jpg" crc="4264418019" ref="tablet>index"/>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u662-fr.png" crc="217133829" ref="tovari-sad1"/>
     <file name="foto.jpg" crc="84274530" ref="tovari-sad1:tovari-sad:index">
-      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
     </file>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u625-fr.png" crc="497420631" ref="tovari-sad"/>
     <file name="logo-u620-fr.jpg" crc="3964185637" ref="tovari-sad"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="master_______-a.css" crc="159725141" ref="tablet>tovari-sad1:tablet>tovari-sad:tablet>index"/>
+      <file name="master_______-a.css" crc="3822563010" ref="tablet>tovari-sad1:tablet>tovari-sad:tablet>index"/>
       <file name="tovari-sad1.css" crc="3769272987" ref="tablet>tovari-sad1"/>
       <file name="tovari-sad.css" crc="3769272987" ref="tablet>tovari-sad"/>
       <file name="index.css" crc="280546031" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="79633651" seo="true" mt="1681941932799" redirect="true"/>
-    <file name="tovari-sad1.html" crc="448133055" seo="true" mt="1681941932799" redirect="true"/>
-    <file name="tovari-sad.html" crc="285567398" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="index.html" crc="4003827126" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="tovari-sad1.html" crc="239325447" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="tovari-sad.html" crc="4218701650" seo="true" mt="1681941932799" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_______-a.css" crc="3995888548" ref="phone>tovari-sad1:phone>index:phone>tovari-sad"/>
-      <file name="tovari-sad1.css" crc="4031951517" ref="phone>tovari-sad1"/>
-      <file name="index.css" crc="4119554052" ref="phone>index"/>
-      <file name="tovari-sad.css" crc="4031951517" ref="phone>tovari-sad"/>
+      <file name="master_______-a.css" crc="141819018" ref="phone>tovari-sad1:phone>tovari-sad:phone>index"/>
+      <file name="tovari-sad1.css" crc="4081636498" ref="phone>tovari-sad1"/>
+      <file name="tovari-sad.css" crc="4081636498" ref="phone>tovari-sad"/>
+      <file name="index.css" crc="3761851824" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4201554160" seo="true" mt="1681942561981" redirect="true"/>
-    <file name="tovari-sad1.html" crc="3819310792" seo="true" mt="1681942511412" redirect="true"/>
-    <file name="tovari-sad.html" crc="3905590975" seo="true" mt="1681942511413" redirect="true"/>
+    <file name="index.html" crc="165332803" seo="true" mt="1681943045049" redirect="true"/>
+    <file name="tovari-sad1.html" crc="4200165397" seo="true" mt="1681942932634" redirect="true"/>
+    <file name="tovari-sad.html" crc="435899050" seo="true" mt="1681942932634" redirect="true"/>
   </folder>
-  <file name="tovari-sad1.html" crc="115437529" seo="true" mt="1681941742581" redirect="true"/>
-  <file name="tovari-sad.html" crc="33416477" seo="true" mt="1681941742582" redirect="true"/>
-  <file name="index.html" crc="3829882979" seo="true" mt="1681941742581" redirect="true"/>
+  <file name="tovari-sad1.html" crc="3967340603" seo="true" mt="1681941742581" redirect="true"/>
+  <file name="tovari-sad.html" crc="4043516864" seo="true" mt="1681941742582" redirect="true"/>
+  <file name="index.html" crc="4135674730" seo="true" mt="1681941742581" redirect="true"/>
 </manifest>
