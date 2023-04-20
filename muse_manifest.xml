@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681988744928">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1681991248685">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="74516209" ref="tovari-sad1:tovari-sad:index"/>
@@ -62,14 +62,14 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_______-a.css" crc="4031261597" ref="phone>tovari-sad1:phone>tovari-sad:phone>index"/>
-      <file name="tovari-sad1.css" crc="80924784" ref="phone>tovari-sad1"/>
-      <file name="tovari-sad.css" crc="527249209" ref="phone>tovari-sad"/>
-      <file name="index.css" crc="4141621691" ref="phone>index"/>
+      <file name="master_______-a.css" crc="3857677765" ref="phone>tovari-sad1:phone>tovari-sad:phone>index"/>
+      <file name="tovari-sad1.css" crc="90422081" ref="phone>tovari-sad1"/>
+      <file name="tovari-sad.css" crc="4150839390" ref="phone>tovari-sad"/>
+      <file name="index.css" crc="312091521" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4034121845" seo="true" mt="1681988729660" redirect="true"/>
-    <file name="tovari-sad1.html" crc="165149280" seo="true" mt="1681988729660" redirect="true"/>
-    <file name="tovari-sad.html" crc="392245183" seo="true" mt="1681988729660" redirect="true"/>
+    <file name="index.html" crc="3789993673" seo="true" mt="1681990645428" redirect="true"/>
+    <file name="tovari-sad1.html" crc="96600697" seo="true" mt="1681990645428" redirect="true"/>
+    <file name="tovari-sad.html" crc="3973499740" seo="true" mt="1681991179082" redirect="true"/>
   </folder>
   <file name="tovari-sad1.html" crc="3967340603" seo="true" mt="1681941742581" redirect="true"/>
   <file name="tovari-sad.html" crc="4043516864" seo="true" mt="1681941742582" redirect="true"/>
