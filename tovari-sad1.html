@@ -23,8 +23,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Товари для Саду та Городу</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=74516209"/>
-  <link rel="stylesheet" type="text/css" href="css/tovari-sad1.css?crc=4112499924" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=449228779"/>
+  <link rel="stylesheet" type="text/css" href="css/tovari-sad1.css?crc=443296253" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -41,15 +41,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <div class="clearfix" id="page"><!-- group -->
    <div class="clearfix grpelem" id="pu662"><!-- group -->
     <div class="browser_width grpelem" id="u662-bw">
-     <div class="museBGSize rgba-background" id="u662"><!-- column -->
+     <div class="museBGSize rgba-background" id="u662"><!-- group -->
       <div class="clearfix" id="u662_align_to_page">
-       <div class="colelem" id="u534"><!-- custom html -->
-        <a class="btn-ens-action btn-ens-style" data-rel="ead9569b310135">Купить</a>
-
-       </div>
-       <div class="colelem" id="u539"><!-- custom html -->
-        <a class="btn-ens-action btn-ens-style" data-rel="ead9569b310133">Купить</a>
-
+       <div class="grpelem" id="u2731"><!-- custom html -->
+        <button id="wicartbutton_002" onclick="cart.addToCart(this, '002', priceList['002'])">Купить</button>
        </div>
       </div>
      </div>
@@ -80,8 +75,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <p id="u951-3">&nbsp;</p>
      <p id="u951-4">&nbsp;</p>
     </div>
+    <div class="grpelem" id="u2727"><!-- custom html -->
+     <a href="#" id="basketwidjet" onclick="cart.showWinow('bcontainer', 1)">Корзина пуста</a>
+    </div>
    </div>
-   <div class="verticalspacer" data-offset-top="806" data-content-above-spacer="949" data-content-below-spacer="61"></div>
+   <div class="verticalspacer" data-offset-top="606" data-content-above-spacer="949" data-content-below-spacer="61"></div>
    <div class="browser_width grpelem" id="u768-bw">
     <div class="museBGSize" id="u768"><!-- group -->
      <div class="clearfix" id="u768_align_to_page">
