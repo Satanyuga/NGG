@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1682018787336">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1682019775944">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="449228779" ref="tovari-sad:tovari-sad1:index"/>
     <file name="tovari-sad.css" crc="3844887800" ref="tovari-sad"/>
-    <file name="tovari-sad1.css" crc="4187476574" ref="tovari-sad1"/>
+    <file name="tovari-sad1.css" crc="333690569" ref="tovari-sad1"/>
     <file name="index.css" crc="184862569" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -37,14 +37,13 @@
     <file name="foto-u1053-fr.jpg" crc="4094740222" ref="phone>index"/>
     <file name="podval.jpg" crc="3791905467" ref="phone>index:tablet>index:tovari-sad1:tovari-sad">
       <caption webpage="index" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
     </file>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u1272-fr.jpg" crc="273977825" ref="tablet>index"/>
     <file name="foto-u1274-fr.jpg" crc="4264418019" ref="tablet>index"/>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u662-fr.png" crc="217133829" ref="tovari-sad1"/>
     <file name="foto.jpg" crc="84274530" ref="tovari-sad1:tovari-sad:index">
-      <caption webpage="index" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
     </file>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u625-fr.png" crc="497420631" ref="tovari-sad"/>
@@ -72,7 +71,7 @@
     <file name="tovari-sad1.html" crc="3847260058" seo="true" mt="1682005887225" redirect="true"/>
     <file name="tovari-sad.html" crc="405869482" seo="true" mt="1681991179082" redirect="true"/>
   </folder>
-  <file name="tovari-sad1.html" crc="4043608964" seo="true" mt="1682018776830" redirect="true"/>
+  <file name="tovari-sad1.html" crc="278489977" seo="true" mt="1682019732399" redirect="true"/>
   <file name="tovari-sad.html" crc="124920053" seo="true" mt="1681941742582" redirect="true"/>
   <file name="index.html" crc="3820879744" seo="true" mt="1681941742581" redirect="true"/>
 </manifest>
