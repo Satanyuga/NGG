@@ -2,26 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://ngg.pp.ua/index.html</loc>
-    <lastmod>2023-04-20</lastmod>
+    <lastmod>2023-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/index.html"/>
     <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://ngg.pp.ua/tablet/index.html"/>
   </url>
   <url>
+    <loc>http://ngg.pp.ua/tovari-sad.html</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/tovari-sad.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://ngg.pp.ua/tablet/tovari-sad.html"/>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/parnik-alumimiy.html</loc>
+    <lastmod>2023-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://ngg.pp.ua/tovari-sad1.html</loc>
-    <lastmod>2023-04-20</lastmod>
+    <lastmod>2023-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/tovari-sad1.html"/>
     <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://ngg.pp.ua/tablet/tovari-sad1.html"/>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/tovari-sad.html</loc>
-    <lastmod>2023-04-20</lastmod>
+    <loc>http://ngg.pp.ua/parnik-plastik.html</loc>
+    <lastmod>2023-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/tovari-sad.html"/>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://ngg.pp.ua/tablet/tovari-sad.html"/>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/zatnyuika.html</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/agrovolokno.html</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

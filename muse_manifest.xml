@@ -1,22 +1,26 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1682019775944">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1682723881504">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="449228779" ref="tovari-sad:tovari-sad1:index"/>
-    <file name="tovari-sad.css" crc="3844887800" ref="tovari-sad"/>
-    <file name="tovari-sad1.css" crc="333690569" ref="tovari-sad1"/>
+    <file name="master_______-a.css" crc="4230004835" ref="agrovolokno:index:tovari-sad:zatnyuika:tovari-sad1:parnik-plastik:parnik-alumimiy"/>
+    <file name="agrovolokno.css" crc="383711852" ref="agrovolokno"/>
     <file name="index.css" crc="184862569" ref="index"/>
+    <file name="tovari-sad.css" crc="146017786" ref="tovari-sad"/>
+    <file name="zatnyuika.css" crc="383711852" ref="zatnyuika"/>
+    <file name="tovari-sad1.css" crc="69929669" ref="tovari-sad1"/>
+    <file name="parnik-plastik.css" crc="383711852" ref="parnik-plastik"/>
+    <file name="parnik-alumimiy.css" crc="77676490" ref="parnik-alumimiy"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
-    <file name="museutils.js" crc="340535759" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
-    <file name="museconfig.js" crc="4286661555" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:tablet>index:tovari-sad1:tovari-sad:index"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:tablet>index:tovari-sad1:tovari-sad:index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
-    <file name="require.js" crc="7928878" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="museconfig.js" crc="4286661555" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:tablet>index:tovari-sad1:tovari-sad:index:parnik-alumimiy"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:tablet>index:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
+    <file name="require.js" crc="7928878" ref="phone>index:phone>tovari-sad1:phone>tovari-sad:tablet>index:tablet>tovari-sad1:tablet>tovari-sad:tovari-sad1:tovari-sad:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno"/>
   </folder>
   <folder name="images">
     <file name="fon.jpg" crc="323525142" ref="phone>index:tablet>index:tovari-sad1:tovari-sad">
@@ -41,37 +45,71 @@
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u1272-fr.jpg" crc="273977825" ref="tablet>index"/>
     <file name="foto-u1274-fr.jpg" crc="4264418019" ref="tablet>index"/>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u662-fr.png" crc="217133829" ref="tovari-sad1"/>
-    <file name="foto.jpg" crc="84274530" ref="tovari-sad1:tovari-sad:index">
+    <file name="парник алюм.jpg" crc="215216948" ref="tovari-sad1">
       <caption webpage="tovari-sad1" alt=""/>
+    </file>
+    <file name="парник пласмаса.jpg" crc="335633135" ref="tovari-sad1">
+      <caption webpage="tovari-sad1" alt=""/>
+    </file>
+    <file name="1037727007.jpg" crc="484087307" ref="tovari-sad1">
+      <caption webpage="tovari-sad1" alt=""/>
+    </file>
+    <file name="агроволокно.jpg" crc="250146703" ref="tovari-sad1">
+      <caption webpage="tovari-sad1" alt=""/>
+    </file>
+    <file name="foto.jpg" crc="84274530" ref="tovari-sad1:tovari-sad:index:parnik-alumimiy">
       <caption webpage="index" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="parnik-alumimiy" alt=""/>
     </file>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u625-fr.png" crc="497420631" ref="tovari-sad"/>
     <file name="logo-u620-fr.jpg" crc="3964185637" ref="tovari-sad"/>
+    <file name="kapitoshka_6-u2885.png" crc="422469902" ref="parnik-alumimiy"/>
+    <file name="kapitoshka_2-u2876-fr.png" crc="3868919005" ref="parnik-alumimiy"/>
+    <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u2988-fr.png" crc="217133829" ref="parnik-alumimiy"/>
+    <file name="kapitoshka_1-u2873.png" crc="364270901" ref="parnik-alumimiy"/>
+    <file name="u3009-19.png" crc="304337042" ref="parnik-alumimiy"/>
+    <file name="3128336.png" crc="273169014" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_0-u2862.png" crc="272877536" ref="parnik-alumimiy"/>
+    <file name="kapitoshka_3-u2879.png" crc="4225931052" ref="parnik-alumimiy"/>
+    <file name="kapitoshka_4-u2882.png" crc="3766311274" ref="parnik-alumimiy"/>
+    <file name="prolisok_7-u2888.png" crc="303232681" ref="parnik-alumimiy"/>
+    <file name="kapitoshka_5-u2891.png" crc="3785756307" ref="parnik-alumimiy"/>
+    <file name="u2971-45.png" crc="74472312" ref="parnik-alumimiy"/>
+    <file name="фон.jpg" crc="3944811242" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="master_______-a.css" crc="335551745" ref="tablet>tovari-sad:tablet>index:tablet>tovari-sad1"/>
-      <file name="tovari-sad.css" crc="3769272987" ref="tablet>tovari-sad"/>
+      <file name="master_______-a.css" crc="237091362" ref="tablet>index:tablet>tovari-sad1:tablet>tovari-sad"/>
       <file name="index.css" crc="280546031" ref="tablet>index"/>
       <file name="tovari-sad1.css" crc="3769272987" ref="tablet>tovari-sad1"/>
+      <file name="tovari-sad.css" crc="3769272987" ref="tablet>tovari-sad"/>
     </folder>
-    <file name="index.html" crc="166945682" seo="true" mt="1681941932799" redirect="true"/>
-    <file name="tovari-sad1.html" crc="4154669519" seo="true" mt="1681941932799" redirect="true"/>
-    <file name="tovari-sad.html" crc="243778953" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="index.html" crc="157791282" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="tovari-sad1.html" crc="154206425" seo="true" mt="1681941932799" redirect="true"/>
+    <file name="tovari-sad.html" crc="211731815" seo="true" mt="1681941932799" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_______-a.css" crc="333225321" ref="phone>tovari-sad1:phone>tovari-sad:phone>index"/>
+      <file name="master_______-a.css" crc="175528489" ref="phone>tovari-sad1:phone>tovari-sad:phone>index"/>
       <file name="tovari-sad1.css" crc="90422081" ref="phone>tovari-sad1"/>
       <file name="tovari-sad.css" crc="4150839390" ref="phone>tovari-sad"/>
-      <file name="index.css" crc="3785244179" ref="phone>index"/>
+      <file name="index.css" crc="3941802940" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4075283279" seo="true" mt="1681990645428" redirect="true"/>
-    <file name="tovari-sad1.html" crc="3847260058" seo="true" mt="1682005887225" redirect="true"/>
-    <file name="tovari-sad.html" crc="405869482" seo="true" mt="1681991179082" redirect="true"/>
+    <file name="index.html" crc="205730460" seo="true" mt="1681990645428" redirect="true"/>
+    <file name="tovari-sad1.html" crc="4010190759" seo="true" mt="1682722251245" redirect="true"/>
+    <file name="tovari-sad.html" crc="4241871202" seo="true" mt="1681991179082" redirect="true"/>
   </folder>
-  <file name="tovari-sad1.html" crc="278489977" seo="true" mt="1682019732399" redirect="true"/>
-  <file name="tovari-sad.html" crc="124920053" seo="true" mt="1681941742582" redirect="true"/>
-  <file name="index.html" crc="3820879744" seo="true" mt="1681941742581" redirect="true"/>
+  <file name="tovari-sad1.html" crc="4031250281" seo="true" mt="1682624350148" redirect="true"/>
+  <file name="tovari-sad.html" crc="41286168" seo="true" mt="1682624291924" redirect="true"/>
+  <file name="index.html" crc="103567037" seo="true" mt="1682624291924" redirect="true"/>
+  <file name="parnik-alumimiy.html" crc="3984607692" seo="true" mt="1682723873637" redirect="true"/>
+  <file name="parnik-plastik.html" crc="4283307147" seo="true" mt="1682624291924" redirect="true"/>
+  <file name="zatnyuika.html" crc="393798317" seo="true" mt="1682624291924" redirect="true"/>
+  <file name="agrovolokno.html" crc="113096348" seo="true" mt="1682624291924" redirect="true"/>
 </manifest>
