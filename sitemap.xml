@@ -8,12 +8,12 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/tovari-sad1.html</loc>
-    <lastmod>2024-05-12</lastmod>
+    <lastmod>2024-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/zatnyuika.html</loc>
+    <loc>http://ngg.pp.ua/agrovolokno.html</loc>
     <lastmod>2024-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -31,13 +31,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/vid-komah.html</loc>
+    <loc>http://ngg.pp.ua/zatnyuika.html</loc>
     <lastmod>2024-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/agrovolokno.html</loc>
+    <loc>http://ngg.pp.ua/vikonna.html</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/vid-komah.html</loc>
     <lastmod>2024-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -49,8 +55,23 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/vikonna.html</loc>
-    <lastmod>2024-05-12</lastmod>
+    <loc>http://ngg.pp.ua/parniki.html</loc>
+    <lastmod>2024-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/parnik%20dlya%20roslin.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/agro_lider.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/shadow.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/%D0%B1%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-15.html</loc>
+    <lastmod>2024-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
