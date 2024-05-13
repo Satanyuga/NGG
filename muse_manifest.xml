@@ -1,21 +1,18 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1715639232544">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1715639877267">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="4025489473" ref="agrovolokno:index:vikonna:parnik-plastik:dverna:без-имени-15:tovari-sad1:parnik-alumimiy:parniki:vid-komah:zatnyuika"/>
-    <file name="agrovolokno.css" crc="3894828845" ref="agrovolokno"/>
-    <file name="index.css" crc="522115277" ref="index"/>
+    <file name="master_______-a.css" crc="4229927237" ref="vikonna:parnik-plastik:parnik-alumimiy:без-имени-15:agrovolokno:zatnyuika:index:parniki:vid-komah:dverna:tovari-sad1"/>
     <file name="vikonna.css" crc="4185278299" ref="vikonna"/>
-    <file name="parnik-plastik.css" crc="3833699368" ref="parnik-plastik"/>
-    <file name="dverna.css" crc="516084073" ref="dverna"/>
+    <file name="parnik-plastik.css" crc="4013513721" ref="parnik-plastik"/>
+    <file name="parnik-alumimiy.css" crc="434317065" ref="parnik-alumimiy"/>
     <file name="___-_____-15.css" crc="87359585" ref="без-имени-15"/>
-    <file name="tovari-sad1.css" crc="424836980" ref="tovari-sad1"/>
-    <file name="parnik-alumimiy.css" crc="4184715772" ref="parnik-alumimiy"/>
-    <file name="parniki.css" crc="114740217" ref="parniki"/>
+    <file name="agrovolokno.css" crc="4188814408" ref="agrovolokno"/>
+    <file name="zatnyuika.css" crc="281428923" ref="zatnyuika"/>
+    <file name="index.css" crc="522115277" ref="index"/>
+    <file name="parniki.css" crc="253440826" ref="parniki"/>
     <file name="vid-komah.css" crc="395783236" ref="vid-komah"/>
-    <file name="zatnyuika.css" crc="3774778779" ref="zatnyuika"/>
-  </folder>
-  <folder name="assets">
-    <file name="зате.webp" crc="4873152" seo="true" mt="1687809066000"/>
+    <file name="dverna.css" crc="3993787747" ref="dverna"/>
+    <file name="tovari-sad1.css" crc="232822776" ref="tovari-sad1"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno:vid-komah:dverna:vikonna:parniki:без-имени-15"/>
@@ -55,9 +52,9 @@
     <file name="u5649-4.png" crc="4108521977" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno:vid-komah:dverna:vikonna:parniki:без-имени-15"/>
     <file name="foto.jpg" crc="84274530" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno">
       <caption webpage="index" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
     </file>
@@ -65,52 +62,52 @@
       <caption webpage="tovari-sad1" alt=""/>
     </file>
     <file name="3128336.png" crc="273169014" ref="tovari-sad1:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno:dverna">
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
       <caption webpage="dverna" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
     </file>
     <file name="telega.png" crc="459896565" ref="tovari-sad1:parnik-alumimiy:parnik-plastik:zatnyuika:agrovolokno:dverna">
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="zatnyuika" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
       <caption webpage="dverna" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="zatnyuika" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
     </file>
     <file name="kapitoshka_6-u2885.png" crc="422469902" ref="parnik-alumimiy"/>
     <file name="kapitoshka_2-u2876-fr.png" crc="3868919005" ref="parnik-alumimiy:parnik-plastik"/>
@@ -299,18 +296,12 @@
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u6048-fr.png" crc="4260005088" ref="vikonna"/>
     <file name="фасовка-u6026-fr.jpg" crc="3925687724" ref="vikonna"/>
     <file name="кріплення-u6029-fr.jpg" crc="186242940" ref="vikonna"/>
-    <file name="gigant.jpg" crc="3810488131" ref="parniki">
-      <caption webpage="parniki" alt=""/>
-    </file>
-    <file name="prolisok_7.jpg" crc="313711244" ref="parniki">
-      <caption webpage="parniki" alt=""/>
-    </file>
+    <file name="gigant-u6470-fr.jpg" crc="3810488131" ref="parniki"/>
+    <file name="prolisok_7-u6524-fr.jpg" crc="313711244" ref="parniki"/>
     <file name="parnik dlya roslin.jpg" crc="210458376" seo="true" ref="parniki">
       <caption webpage="parniki" alt=""/>
     </file>
-    <file name="prolisok.jpg" crc="269385396" ref="parniki">
-      <caption webpage="parniki" alt=""/>
-    </file>
+    <file name="prolisok-u6527-fr.jpg" crc="269385396" ref="parniki"/>
     <file name="agro_lider.jpg" crc="4013519043" seo="true" ref="parniki">
       <caption webpage="parniki" alt=""/>
     </file>
@@ -321,15 +312,15 @@
       <caption webpage="parniki" alt=""/>
     </file>
   </folder>
-  <file name="tovari-sad1.html" crc="207328676" seo="true" mt="1715632854596" redirect="true"/>
-  <file name="index.html" crc="4109366820" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="parnik-alumimiy.html" crc="247086994" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="parnik-plastik.html" crc="158599465" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="zatnyuika.html" crc="196415755" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="agrovolokno.html" crc="4050593211" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="vid-komah.html" crc="197102338" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="dverna.html" crc="4159169558" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="vikonna.html" crc="3965322593" seo="true" mt="1715540121402" redirect="true"/>
-  <file name="parniki.html" crc="4152369058" seo="true" mt="1715639218971" redirect="true"/>
-  <file name="без-имени-15.html" crc="4175588345" seo="true" mt="1715633793765" redirect="true"/>
+  <file name="tovari-sad1.html" crc="473764797" seo="true" mt="1715639706206" redirect="true"/>
+  <file name="index.html" crc="398731390" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="parnik-alumimiy.html" crc="250254159" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="parnik-plastik.html" crc="4242701155" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="zatnyuika.html" crc="100918626" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="agrovolokno.html" crc="364521591" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="vid-komah.html" crc="4005590352" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="dverna.html" crc="3793795951" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="vikonna.html" crc="142808309" seo="true" mt="1715540121402" redirect="true"/>
+  <file name="parniki.html" crc="3891077936" seo="true" mt="1715639577873" redirect="true"/>
+  <file name="без-имени-15.html" crc="380353180" seo="true" mt="1715633793765" redirect="true"/>
 </manifest>
