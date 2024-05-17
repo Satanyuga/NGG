@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1715982212851">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1715982909139">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="143913063" ref="tovari-sad1:затіняюча-сітка-копия:dverna:затіняюча-сітка:index:парник-гігант:vikonna:agrovolokno:parnik-alumimiy:парники:vid-komah:parnik-plastik"/>
@@ -402,7 +402,7 @@
   <file name="vid-komah.html" crc="4256372309" seo="true" mt="1715974077865" redirect="true"/>
   <file name="dverna.html" crc="161803215" seo="true" mt="1715974077865" redirect="true"/>
   <file name="vikonna.html" crc="465746" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="парники.html" crc="347912060" seo="true" mt="1715974077865" redirect="true"/>
+  <file name="парники.html" crc="499265620" seo="true" mt="1715982874241" redirect="true"/>
   <file name="затіняюча-сітка-копия.html" crc="4007260859" seo="true" mt="1715974077865" redirect="true"/>
   <file name="парник-гігант.html" crc="4106637587" seo="true" mt="1715982169998" redirect="true"/>
 </manifest>
