@@ -1,60 +1,63 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1716042782186">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1716151959080">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="143913063" ref="tovari-sad1:index:parniki:vid-komah:agrovolokno:vikonna:parnik-plastik:затіняюча-сітка-копия:затіняюча-сітка:parnik-gigant:parnik-alumimiy:dverna"/>
-    <file name="tovari-sad1.css" crc="4241901428" ref="tovari-sad1"/>
-    <file name="index.css" crc="4152504866" ref="index"/>
-    <file name="parniki.css" crc="517168997" ref="parniki"/>
-    <file name="vid-komah.css" crc="4167874404" ref="vid-komah"/>
-    <file name="agrovolokno.css" crc="3960815008" ref="agrovolokno"/>
-    <file name="vikonna.css" crc="307419639" ref="vikonna"/>
-    <file name="parnik-plastik.css" crc="56344085" ref="parnik-plastik"/>
-    <file name="_________-_____-_____.css" crc="3865952852" ref="затіняюча-сітка-копия"/>
-    <file name="_________-_____.css" crc="3880037324" ref="затіняюча-сітка"/>
-    <file name="parnik-gigant.css" crc="4188266016" ref="parnik-gigant"/>
-    <file name="parnik-alumimiy.css" crc="4075882608" ref="parnik-alumimiy"/>
-    <file name="dverna.css" crc="4072992108" ref="dverna"/>
+    <file name="master_______-a.css" crc="4053963417" ref="index:затіняюча-сітка:parnik-plastik:parnik-dlya-roslin:затіняюча-сітка-копия:parnik-shadow:tovari-sad1:parnik-gigant:parnik-agrolider:parnik-alumimiy:vid-komah:agrovolokno:dverna:parniki:vikonna"/>
+    <file name="index.css" crc="4053452822" ref="index"/>
+    <file name="_________-_____.css" crc="4013198736" ref="затіняюча-сітка"/>
+    <file name="parnik-plastik.css" crc="4117711985" ref="parnik-plastik"/>
+    <file name="parnik-dlya-roslin.css" crc="3804301062" ref="parnik-dlya-roslin"/>
+    <file name="_________-_____-_____.css" crc="144220231" ref="затіняюча-сітка-копия"/>
+    <file name="parnik-shadow.css" crc="72020391" ref="parnik-shadow"/>
+    <file name="tovari-sad1.css" crc="3806672913" ref="tovari-sad1"/>
+    <file name="parnik-gigant.css" crc="407431546" ref="parnik-gigant"/>
+    <file name="parnik-agrolider.css" crc="352094047" ref="parnik-agrolider"/>
+    <file name="parnik-alumimiy.css" crc="4207789285" ref="parnik-alumimiy"/>
+    <file name="vid-komah.css" crc="376472178" ref="vid-komah"/>
+    <file name="agrovolokno.css" crc="453002597" ref="agrovolokno"/>
+    <file name="dverna.css" crc="4209016305" ref="dverna"/>
+    <file name="parniki.css" crc="3860565322" ref="parniki"/>
+    <file name="vikonna.css" crc="3939991333" ref="vikonna"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="museutils.js" crc="3939489907" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="whatinput.js" crc="86476730" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="museconfig.js" crc="3936894949" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="jquery.musemenu.js" crc="4139692962" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="jquery.watch.js" crc="522499760" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="jquery.scrolleffects.js" crc="312044820" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="html5shiv.js" crc="4241844378" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="require.js" crc="4177726516" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="webpro.js" crc="3856315280" ref="parnik-gigant"/>
-    <file name="musewpslideshow.js" crc="244150766" ref="parnik-gigant"/>
-    <file name="jquery.museoverlay.js" crc="3877667098" ref="parnik-gigant"/>
-    <file name="touchswipe.js" crc="3888935200" ref="parnik-gigant"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="museutils.js" crc="3939489907" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="whatinput.js" crc="86476730" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="museconfig.js" crc="3936894949" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="jquery.watch.js" crc="522499760" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="html5shiv.js" crc="4241844378" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="require.js" crc="4177726516" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="webpro.js" crc="3856315280" ref="parnik-alumimiy:parnik-plastik:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="parnik-alumimiy:parnik-plastik:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="parnik-alumimiy:parnik-plastik:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="touchswipe.js" crc="3888935200" ref="parnik-alumimiy:parnik-plastik:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
   </folder>
   <folder name="images">
-    <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2.jpg" crc="239520222" ref="tovari-sad1">
-      <caption webpage="tovari-sad1" alt=""/>
-    </file>
     <file name="fon.jpg" crc="323525142" ref="tovari-sad1">
       <caption webpage="tovari-sad1" alt=""/>
     </file>
     <file name="logo.jpg" crc="523413141" ref="tovari-sad1">
       <caption webpage="tovari-sad1" alt=""/>
     </file>
-    <file name="u5426-4.png" crc="3986275818" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="u5488-4.png" crc="4235594537" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="u5467-4.png" crc="508432467" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="u5446-4.png" crc="431356870" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="u5531-4.png" crc="3850970861" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="u5649-4.png" crc="4108521977" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant"/>
-    <file name="foto.jpg" crc="84274530" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:затіняюча-сітка-копия:parnik-gigant">
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="parnik-gigant" alt=""/>
+    <file name="u5426-4.png" crc="3986275818" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="u5488-4.png" crc="4235594537" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="u5467-4.png" crc="508432467" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="u5446-4.png" crc="431356870" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="u5531-4.png" crc="3850970861" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="u5649-4.png" crc="4108521977" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:vid-komah:dverna:vikonna:parniki:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="foto.jpg" crc="84274530" ref="tovari-sad1:index:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow">
+      <caption webpage="parnik-alumimiy" alt=""/>
+      <caption webpage="parnik-agrolider" alt=""/>
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-alumimiy" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="parnik-shadow" alt=""/>
+      <caption webpage="parnik-gigant" alt=""/>
       <caption webpage="затіняюча-сітка-копия" alt=""/>
     </file>
     <file name="парник алюм.jpg" crc="215216948" ref="tovari-sad1">
@@ -67,44 +70,28 @@
     <file name="агроволокно.jpg" crc="250146703" ref="tovari-sad1">
       <caption webpage="tovari-sad1" alt=""/>
     </file>
+    <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2.jpg" crc="239520222" ref="tovari-sad1">
+      <caption webpage="tovari-sad1" alt=""/>
+    </file>
     <file name="podval.jpg" crc="3791905467" ref="tovari-sad1">
       <caption webpage="tovari-sad1" alt=""/>
     </file>
-    <file name="3128336.png" crc="273169014" ref="tovari-sad1:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:dverna:parnik-gigant">
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="parnik-gigant" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
+    <file name="3128336.png" crc="273169014" ref="tovari-sad1:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:dverna:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow">
       <caption webpage="parnik-alumimiy" alt=""/>
+      <caption webpage="parnik-agrolider" alt=""/>
       <caption webpage="dverna" alt=""/>
-    </file>
-    <file name="telega.png" crc="459896565" ref="tovari-sad1:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:dverna:parnik-gigant">
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="затіняюча-сітка" alt=""/>
-      <caption webpage="parnik-gigant" alt=""/>
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
@@ -114,42 +101,138 @@
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="parnik-alumimiy" alt=""/>
-      <caption webpage="dverna" alt=""/>
+      <caption webpage="parnik-shadow" alt=""/>
+      <caption webpage="parnik-gigant" alt=""/>
     </file>
-    <file name="kapitoshka_0-u2862.png" crc="272877536" ref="parnik-alumimiy"/>
-    <file name="kapitoshka_4-u2882.png" crc="3766311274" ref="parnik-alumimiy"/>
-    <file name="prolisok_7-u2888.png" crc="303232681" ref="parnik-alumimiy"/>
-    <file name="kapitoshka_5-u2891.png" crc="3834181555" ref="parnik-alumimiy"/>
-    <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u2988-fr.png" crc="217133829" ref="parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:dverna"/>
-    <file name="kapitoshka_3-u2879.png" crc="4225931052" ref="parnik-alumimiy"/>
-    <file name="kapitoshka_1-u2873.png" crc="3357593" ref="parnik-alumimiy"/>
+    <file name="telega.png" crc="459896565" ref="tovari-sad1:parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:dverna:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow">
+      <caption webpage="parnik-alumimiy" alt=""/>
+      <caption webpage="parnik-agrolider" alt=""/>
+      <caption webpage="dverna" alt=""/>
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="затіняюча-сітка" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="parnik-shadow" alt=""/>
+      <caption webpage="parnik-gigant" alt=""/>
+    </file>
+    <file name="234199x184.jpg" crc="4225280504" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="213199x109.jpg" crc="4244226717" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="423432199x151.jpg" crc="111007327" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_4199x148.jpg" crc="155326912" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_5173x204.jpg" crc="294549080" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="243423234155x204.jpg" crc="333832126" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_2199x150.jpg" crc="518960564" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_3199x150.jpg" crc="120533594" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="234.jpg" crc="262381468" seo="true" ref="parnik-alumimiy:parnik-plastik">
+      <caption webpage="parnik-alumimiy" alt=""/>
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="parnik-alumimiy:parnik-plastik:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="213.jpg" crc="507548954" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="423432.jpg" crc="156347009" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_4.jpg" crc="215424714" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_5.jpg" crc="41508151" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="243423234.jpg" crc="234004936" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_2.jpg" crc="435352277" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="kapitoshka_3.jpg" crc="524125091" seo="true" ref="parnik-alumimiy">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="parnik-alumimiy:parnik-plastik:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow"/>
+    <file name="u2971-40.png" crc="13978669" ref="parnik-alumimiy"/>
+    <file name="фон.jpg" crc="3944811242" ref="parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:затіняюча-сітка-копия:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow">
+      <caption webpage="parnik-alumimiy" alt=""/>
+    </file>
     <file name="u3009-19.png" crc="3869791617" ref="parnik-alumimiy"/>
     <file name="u3875-4.png" crc="4153744690" ref="parnik-alumimiy"/>
     <file name="u3878-5.png" crc="4233639258" ref="parnik-alumimiy"/>
-    <file name="kapitoshka_2-u2876-fr.png" crc="3868919005" ref="parnik-alumimiy:parnik-plastik"/>
-    <file name="kapitoshka_6-u2885.png" crc="422469902" ref="parnik-alumimiy"/>
-    <file name="u2971-45.png" crc="74472312" ref="parnik-alumimiy"/>
-    <file name="фон.jpg" crc="3944811242" ref="parnik-alumimiy:parnik-plastik:затіняюча-сітка:agrovolokno:затіняюча-сітка-копия:parnik-gigant">
-      <caption webpage="parnik-alumimiy" alt=""/>
-    </file>
-    <file name="kapitoshka_0-u3931.png" crc="272877536" ref="parnik-plastik"/>
-    <file name="kapitoshka_6-u3936.png" crc="422469902" ref="parnik-plastik"/>
-    <file name="parnyk_prolisok_3.jpg" crc="4273358630" ref="parnik-plastik">
+    <file name="1323153x204.jpg" crc="4003605028" seo="true" ref="parnik-plastik">
       <caption webpage="parnik-plastik" alt=""/>
     </file>
-    <file name="parnyk_prolisok_4.jpg" crc="4030913887" ref="parnik-plastik">
+    <file name="kapitoshka_1153x204.jpg" crc="223826145" seo="true" ref="parnik-plastik">
       <caption webpage="parnik-plastik" alt=""/>
     </file>
-    <file name="parnyk_prolisok_2.jpg" crc="162743097" ref="parnik-plastik">
+    <file name="kapitoshka_2199x1502.jpg" crc="518960564" seo="true" ref="parnik-plastik">
       <caption webpage="parnik-plastik" alt=""/>
     </file>
-    <file name="kapitoshka_3-u3934.png" crc="4225931052" ref="parnik-plastik"/>
-    <file name="kapitoshka_1-u3932.png" crc="3357593" ref="parnik-plastik"/>
-    <file name="u3940-30.png" crc="4166303056" ref="parnik-plastik"/>
+    <file name="kapitoshka_3199x1502.jpg" crc="120533594" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="parnyk_prolisok_2153x204.jpg" crc="289698968" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="parnyk_prolisok_3153x204.jpg" crc="3823356647" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="парник пласмаса153x204.jpg" crc="315351504" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="1323.jpg" crc="154663128" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="kapitoshka_1.jpg" crc="355776893" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="kapitoshka_22.jpg" crc="435352277" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="kapitoshka_32.jpg" crc="524125091" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="parnyk_prolisok_2.jpg" crc="74192620" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="parnyk_prolisok_3.jpg" crc="3983640472" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="парник пласмаса2.jpg" crc="3889469726" seo="true" ref="parnik-plastik">
+      <caption webpage="parnik-plastik" alt=""/>
+    </file>
+    <file name="u3940-24.png" crc="3982898794" ref="parnik-plastik"/>
     <file name="u3945-16.png" crc="230242377" ref="parnik-plastik"/>
     <file name="u3956-4.png" crc="4153744690" ref="parnik-plastik"/>
     <file name="u3957-5.png" crc="4233639258" ref="parnik-plastik"/>
@@ -174,6 +257,7 @@
     <file name="136_57e39c34.jpg" crc="276080680" ref="затіняюча-сітка">
       <caption webpage="затіняюча-сітка" alt=""/>
     </file>
+    <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2-u5071-fr.png" crc="217133829" ref="затіняюча-сітка:agrovolokno:dverna"/>
     <file name="u4964-9.png" crc="4014712674" ref="затіняюча-сітка"/>
     <file name="u4969-26.png" crc="337875268" ref="затіняюча-сітка"/>
     <file name="u4971-4.png" crc="4153744690" ref="затіняюча-сітка"/>
@@ -367,7 +451,6 @@
     <file name="2691420672_w640_h640_2691420672.jpg" crc="199701603" seo="true" ref="parnik-gigant">
       <caption webpage="parnik-gigant" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="parnik-gigant"/>
     <file name="2691420671_w640_h640_2691420671.jpg" crc="499677855" seo="true" ref="parnik-gigant">
       <caption webpage="parnik-gigant" alt=""/>
     </file>
@@ -386,23 +469,181 @@
     <file name="3955016870_w640_h640_3955016870.jpg" crc="245447135" seo="true" ref="parnik-gigant">
       <caption webpage="parnik-gigant" alt=""/>
     </file>
-    <file name="loading.gif" crc="3815509949" ref="parnik-gigant"/>
     <file name="u7380-12.png" crc="3897429790" ref="parnik-gigant"/>
     <file name="u8034-19.png" crc="367895119" ref="parnik-gigant"/>
     <file name="u7394-19.png" crc="3847505390" ref="parnik-gigant"/>
     <file name="u7359-4.png" crc="4153744690" ref="parnik-gigant"/>
     <file name="u7358-5.png" crc="4233639258" ref="parnik-gigant"/>
+    <file name="456.jpg" crc="251519911" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="54645546.jpg" crc="3944378854" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="56456.jpg" crc="4187242240" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="64654.jpg" crc="234750556" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="456456.jpg" crc="3795035102" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="64655465.jpg" crc="167668050" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="4989889.jpg" crc="4157223002" seo="true" ref="parnik-dlya-roslin:parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="98989898.jpg" crc="472968804" seo="true" ref="parnik-dlya-roslin:parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="8798789.jpg" crc="115104915" seo="true" ref="parnik-dlya-roslin:parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="64654654564.jpg" crc="50786509" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="456199x184.jpg" crc="322213707" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="54645546199x133.jpg" crc="421843632" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="56456199x133.jpg" crc="42741745" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="64654199x133.jpg" crc="3917989670" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="456456199x158.jpg" crc="4240600636" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="64655465199x134.jpg" crc="151738143" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="4989889199x199.jpg" crc="252585559" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="98989898199x200.jpg" crc="4242394696" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="8798789199x200.jpg" crc="3970706884" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="64654654564199x199.jpg" crc="3843871855" seo="true" ref="parnik-dlya-roslin">
+      <caption webpage="parnik-dlya-roslin" alt=""/>
+    </file>
+    <file name="u9122-12.png" crc="208156567" ref="parnik-dlya-roslin"/>
+    <file name="u9114-20.png" crc="503430166" ref="parnik-dlya-roslin"/>
+    <file name="u9115-19.png" crc="3847505390" ref="parnik-dlya-roslin"/>
+    <file name="u9129-4.png" crc="4153744690" ref="parnik-dlya-roslin"/>
+    <file name="u9128-5.png" crc="4233639258" ref="parnik-dlya-roslin"/>
+    <file name="213312.jpg" crc="4031422875" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="342432.jpg" crc="4225963610" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="342432234.jpg" crc="186209762" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="234243432432.jpg" crc="4092688204" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="523553252.jpg" crc="3794933510" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="213312199x191.jpg" crc="186926884" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="342432199x201.jpg" crc="3906894115" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="342432234199x199.jpg" crc="384858298" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="234243432432199x199.jpg" crc="3963898829" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="523553252199x200.jpg" crc="212172105" seo="true" ref="parnik-agrolider">
+      <caption webpage="parnik-agrolider" alt=""/>
+    </file>
+    <file name="u9654-12.png" crc="208156567" ref="parnik-agrolider"/>
+    <file name="u9650-20.png" crc="503430166" ref="parnik-agrolider"/>
+    <file name="u9651-19.png" crc="3847505390" ref="parnik-agrolider"/>
+    <file name="u9664-4.png" crc="4153744690" ref="parnik-agrolider"/>
+    <file name="u9665-5.png" crc="4233639258" ref="parnik-agrolider"/>
+    <file name="u10027-12.png" crc="208156567" ref="parnik-shadow"/>
+    <file name="312.jpg" crc="3931527112" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="321321321.jpg" crc="3862850850" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="231231213321.jpg" crc="392542819" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="213213231.jpg" crc="3854277156" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="231321123.jpg" crc="14325968" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="31321231.jpg" crc="3874488092" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="231312321.jpg" crc="3948119686" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="2121231132321.jpg" crc="4289083446" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="312199x202.jpg" crc="453762161" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="321321321199x192.jpg" crc="122847679" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="231231213321186x204.jpg" crc="3958994076" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="213213231199x198.jpg" crc="339527199" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="231321123199x198.jpg" crc="4073933910" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="31321231199x198.jpg" crc="4138520909" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="231312321199x200.jpg" crc="178204983" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="2121231132321199x200.jpg" crc="65006151" seo="true" ref="parnik-shadow">
+      <caption webpage="parnik-shadow" alt=""/>
+    </file>
+    <file name="u10085-20.png" crc="503430166" ref="parnik-shadow"/>
+    <file name="u10092-19.png" crc="3847505390" ref="parnik-shadow"/>
+    <file name="u10017-4.png" crc="4153744690" ref="parnik-shadow"/>
+    <file name="u10021-5.png" crc="4233639258" ref="parnik-shadow"/>
   </folder>
-  <file name="tovari-sad1.html" crc="3828118328" seo="true" mt="1716042683337" redirect="true"/>
-  <file name="index.html" crc="532798985" seo="true" mt="1716042746060" redirect="true"/>
-  <file name="parnik-alumimiy.html" crc="4226888040" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="parnik-plastik.html" crc="412303491" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="затіняюча-сітка.html" crc="3845385997" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="agrovolokno.html" crc="4284986537" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="vid-komah.html" crc="4256372309" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="dverna.html" crc="499326978" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="vikonna.html" crc="465746" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="parniki.html" crc="4112578227" seo="true" mt="1716042729165" redirect="true"/>
-  <file name="затіняюча-сітка-копия.html" crc="3936843984" seo="true" mt="1715974077865" redirect="true"/>
-  <file name="parnik-gigant.html" crc="457953377" seo="true" mt="1716042741072" redirect="true"/>
+  <file name="tovari-sad1.html" crc="50905618" seo="true" mt="1716144005780" redirect="true"/>
+  <file name="index.html" crc="3794648320" seo="true" mt="1716143975061" redirect="true"/>
+  <file name="parnik-alumimiy.html" crc="3923038370" seo="true" mt="1716144388531" redirect="true"/>
+  <file name="parnik-plastik.html" crc="419630893" seo="true" mt="1716144066027" redirect="true"/>
+  <file name="затіняюча-сітка.html" crc="249086722" seo="true" mt="1716144102902" redirect="true"/>
+  <file name="agrovolokno.html" crc="3958915080" seo="true" mt="1716144052026" redirect="true"/>
+  <file name="vid-komah.html" crc="4036297332" seo="true" mt="1716109470094" redirect="true"/>
+  <file name="dverna.html" crc="4225910141" seo="true" mt="1716109470094" redirect="true"/>
+  <file name="vikonna.html" crc="4066647230" seo="true" mt="1716109470094" redirect="true"/>
+  <file name="parniki.html" crc="131343212" seo="true" mt="1716144125295" redirect="true"/>
+  <file name="затіняюча-сітка-копия.html" crc="337361829" seo="true" mt="1716144036195" redirect="true"/>
+  <file name="parnik-gigant.html" crc="132136989" seo="true" mt="1716143961727" redirect="true"/>
+  <file name="parnik-dlya-roslin.html" crc="212566885" seo="true" mt="1716145587088" redirect="true"/>
+  <file name="parnik-agrolider.html" crc="3798208793" seo="true" mt="1716146683243" redirect="true"/>
+  <file name="parnik-shadow.html" crc="4047252010" seo="true" mt="1716151688725" redirect="true"/>
 </manifest>

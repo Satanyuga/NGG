@@ -16,8 +16,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Парники</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=143913063"/>
-  <link rel="stylesheet" type="text/css" href="css/parniki.css?crc=517168997" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=4053963417"/>
+  <link rel="stylesheet" type="text/css" href="css/parniki.css?crc=3860565322" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -26,9 +26,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <div class="browser_width" id="u6641-bw">
-    <div id="u6641"><!-- simple frame --></div>
-   </div>
    <div class="clearfix grpelem" id="pu665"><!-- column -->
     <div class="browser_width colelem" id="u665-bw">
      <div id="u665"><!-- group -->
@@ -65,11 +62,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
-    <div class="browser_width colelem" id="u6481-bw">
-     <div id="u6481"><!-- group -->
-      <div class="clearfix" id="u6481_align_to_page">
-       <div class="clearfix grpelem" id="u6939-4"><!-- content -->
-        <p>Парники</p>
+    <div class="clearfix colelem" id="pu6481"><!-- group -->
+     <div class="browser_width grpelem" id="u6481-bw">
+      <div id="u6481"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u8931-bw">
+      <div class="rgba-background" id="u8931"><!-- group -->
+       <div class="clearfix" id="u8931_align_to_page">
+        <div class="clearfix grpelem" id="u6939-4"><!-- content -->
+         <p>Парники</p>
+        </div>
        </div>
       </div>
      </div>
@@ -101,17 +103,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="shadow clearfix grpelem" id="u6511-4"><!-- content -->
       <p>Парник &quot;Shadow&quot;</p>
      </div>
-     <div class="museBGSize clearfix grpelem" id="u6524"><!-- group -->
-      <div class="shadow clearfix grpelem" id="u6676-4"><!-- content -->
-       <p>Парник &quot;Пролісок&quot; алюміній</p>
-      </div>
+     <div class="pointer_cursor museBGSize clearfix grpelem" id="u6524"><!-- group -->
+      <a class="block" href="parnik-alumimiy.html"><!-- Block link tag --></a>
+      <a class="nonblock nontext shadow clearfix grpelem" id="u6676-4" href="parnik-alumimiy.html"><!-- content --><p>Парник &quot;Пролісок&quot; алюміній</p></a>
      </div>
-     <div class="museBGSize clearfix grpelem" id="u6527"><!-- group -->
-      <div class="shadow clearfix grpelem" id="u6673-4"><!-- content -->
-       <p>Парник &quot;Пролісок&quot; пластиковий</p>
-      </div>
+     <div class="pointer_cursor museBGSize clearfix grpelem" id="u6527"><!-- group -->
+      <a class="block" href="parnik-plastik.html"><!-- Block link tag --></a>
+      <a class="nonblock nontext shadow clearfix grpelem" id="u6673-4" href="parnik-plastik.html"><!-- content --><p>Парник &quot;Пролісок&quot; пластиковий</p></a>
      </div>
     </div>
+   </div>
+   <div class="browser_width" id="u6641-bw">
+    <div id="u6641"><!-- simple frame --></div>
    </div>
    <div class="verticalspacer" data-offset-top="868" data-content-above-spacer="868" data-content-below-spacer="399"></div>
    <div class="browser_width grpelem" id="u768-bw">
@@ -160,7 +163,7 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u6641').registerBackgroundPositionScrollEffect([{"in":[-Infinity,-176],"speed":[0,1]},{"in":[-176,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u6641').registerBackgroundPositionScrollEffect([{"in":[-Infinity,-100.05],"speed":[0,1]},{"in":[-100.05,Infinity],"speed":[0,1]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
