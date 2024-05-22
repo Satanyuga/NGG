@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://ngg.pp.ua/index.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/vikonna.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <loc>http://ngg.pp.ua/tovari-sad1.html</loc>
+    <lastmod>2024-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/zatinyaucha-sitka.html</loc>
+    <lastmod>2024-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://ngg.pp.ua/parnik-alumimiy.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -68,7 +74,7 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/parnik-plastik.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -118,32 +124,80 @@
     </image:image>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/%D0%B7%D0%B0%D1%82%D1%96%D0%BD%D1%8F%D1%8E%D1%87%D0%B0-%D1%81%D1%96%D1%82%D0%BA%D0%B0.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <loc>http://ngg.pp.ua/v-rulonah-ukraine.html</loc>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/8.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1199x150.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5199x150.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2199x199.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3199x171.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/4199x150.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/6199x199.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/7199x133.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/8199x171.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://ngg.pp.ua/agrovolokno.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://ngg.pp.ua/dverna.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/tovari-sad1.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <loc>http://ngg.pp.ua/vikonna.html</loc>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://ngg.pp.ua/parniki.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -157,14 +211,38 @@
     </image:image>
   </url>
   <url>
-    <loc>http://ngg.pp.ua/%D0%B7%D0%B0%D1%82%D1%96%D0%BD%D1%8F%D1%8E%D1%87%D0%B0-%D1%81%D1%96%D1%82%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <loc>http://ngg.pp.ua/paletovan-ukraine.html</loc>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/8.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://ngg.pp.ua/parnik-gigant.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -212,7 +290,7 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/parnik-dlya-roslin.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -278,7 +356,7 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/parnik-agrolider.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -323,7 +401,7 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/parnik-shadow.html</loc>
-    <lastmod>2024-05-20</lastmod>
+    <lastmod>2024-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -374,5 +452,188 @@
     <image:image>
       <image:loc>http://ngg.pp.ua/images/2121231132321199x200.jpg</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/z-luversami.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/13.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/23.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/33.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1199x199.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2199x1992.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3199x201.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/moskitna-sitka.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/v-rulonah-polska.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/12.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/22.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/32.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/42.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/62.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/52.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1124x204.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2143x204.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3199x197.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/4199x195.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/6199x196.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5199x197.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/chehiya-ruloni.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/14.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/43.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/24.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/72.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/34.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/53.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/63.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1199x1992.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/4199x196.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2199x204.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/7199x199.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3199x194.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5199x195.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/6199x202.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/chehiya-fasovka.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/8.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/24.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/15.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/25.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/44.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/54.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/64.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1199x1993.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2199x198.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/4199x194.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5199x1952.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/6199x203.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://ngg.pp.ua/assets/5.jpg</loc>
+    <lastmod>2024-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
