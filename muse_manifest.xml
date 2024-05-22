@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1716336889900">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1716337093695">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="250239510" ref="parnik-plastik:v-rulonah-polska:parnik-gigant:v-rulonah-ukraine:z-luversami:parnik-dlya-roslin:chehiya-ruloni:agrovolokno:chehiya-fasovka:parnik-agrolider:dverna:tovari-sad1:parnik-shadow:vikonna:index:paletovan-ukraine:parniki:parnik-alumimiy:moskitna-sitka:zatinyaucha-sitka"/>
@@ -58,16 +58,16 @@
       <caption webpage="chehiya-ruloni" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="z-luversami" alt=""/>
+      <caption webpage="chehiya-fasovka" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="parnik-agrolider" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="paletovan-ukraine" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="zatinyaucha-sitka" alt=""/>
       <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="parnik-dlya-roslin" alt=""/>
-      <caption webpage="chehiya-fasovka" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="z-luversami" alt=""/>
       <caption webpage="parnik-gigant" alt=""/>
       <caption webpage="v-rulonah-polska" alt=""/>
     </file>
@@ -108,7 +108,7 @@
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="chehiya-fasovka" alt=""/>
+      <caption webpage="parnik-shadow" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
@@ -128,7 +128,7 @@
       <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="parnik-dlya-roslin" alt=""/>
-      <caption webpage="parnik-shadow" alt=""/>
+      <caption webpage="chehiya-fasovka" alt=""/>
       <caption webpage="parnik-gigant" alt=""/>
       <caption webpage="dverna" alt=""/>
       <caption webpage="v-rulonah-polska" alt=""/>
@@ -150,7 +150,7 @@
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="chehiya-fasovka" alt=""/>
+      <caption webpage="parnik-shadow" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
@@ -170,7 +170,7 @@
       <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="parnik-dlya-roslin" alt=""/>
-      <caption webpage="parnik-shadow" alt=""/>
+      <caption webpage="chehiya-fasovka" alt=""/>
       <caption webpage="parnik-gigant" alt=""/>
       <caption webpage="dverna" alt=""/>
       <caption webpage="v-rulonah-polska" alt=""/>
@@ -919,7 +919,7 @@
     <file name="u14427-5.png" crc="4233639258" ref="chehiya-fasovka"/>
     <file name="c_zaten-fas-1-min-u14430.png" crc="461904779" ref="chehiya-fasovka"/>
   </folder>
-  <file name="tovari-sad1.html" crc="183474825" seo="true" mt="1716239896871" redirect="true"/>
+  <file name="tovari-sad1.html" crc="3987364513" seo="true" mt="1716337047359" redirect="true"/>
   <file name="index.html" crc="34070624" seo="true" mt="1716239814622" redirect="true"/>
   <file name="parnik-alumimiy.html" crc="4168139182" seo="true" mt="1716239814622" redirect="true"/>
   <file name="parnik-plastik.html" crc="172887956" seo="true" mt="1716239814622" redirect="true"/>
