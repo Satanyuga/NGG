@@ -84,19 +84,28 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/parnik-plastik.html"/>
     <image:image>
+      <image:loc>http://ngg.pp.ua/images/234199x184.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/kapitoshka_2199x150.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/kapitoshka_3199x150.jpg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://ngg.pp.ua/images/234.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/kapitoshka_2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/kapitoshka_3.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/1323153x204.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/kapitoshka_1153x204.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/kapitoshka_2199x1502.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/kapitoshka_3199x1502.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/parnyk_prolisok_2153x204.jpg</image:loc>
@@ -112,12 +121,6 @@
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/kapitoshka_1.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/kapitoshka_22.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/kapitoshka_32.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/parnyk_prolisok_2.jpg</image:loc>
