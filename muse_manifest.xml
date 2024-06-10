@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1718050399355">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ngg.pp.ua" resolutions="1x" timestamp="1718050815978">
   <folder name="phone">
     <folder name="css">
       <file name="master_______-a.css" crc="162408405" ref="phone>agrovolokno-chehia-posileniy-kray:phone>zatinyaucha-sitka:phone>vikonna:phone>parnik-shadow:phone>agrovolokno-ukraine-chorne:phone>agrovolokno-chehia-chorni-ruloni:phone>parnik-plastik:phone>agrovolokno-chehia-fasovka:phone>agrovolokno:phone>geotekstil-chehia-rul:phone>agrovolokno-poland:phone>index:phone>mishechki:phone>geotekstil-chehia-pak:phone>agrovolokno-chehia-bili-ruloni:phone>dverna:phone>agrotkan-chehia:phone>z-luversami:phone>agrotkan-ukraine:phone>tovari-sad:phone>parnik-alumimiy:phone>chehiya-ruloni:phone>agrovolokno-ukraine-bile:phone>pro-nas:phone>parniki:phone>v-rulonah-polska:phone>parnik-gigant:phone>umovu-dostavki:phone>moskitna-sitka:phone>parnik-dlya-roslin:phone>geotekstil-i-geotkan:phone>parnik-agrolider:phone>paletovan-ukraine:phone>agrovolokno-ukraine-fasovka:phone>chehiya-fasovka:phone>groubegi:phone>v-rulonah-ukraine:phone>tkanevi-gorshiki"/>
@@ -141,21 +141,21 @@
   </folder>
   <folder name="images">
     <file name="fon.jpg" crc="323525142" ref="tovari-sad:phone>index:v-rulonah-ukraine:index:parnik-plastik">
-      <caption webpage="v-rulonah-ukraine" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="mishechki" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
     </file>
     <file name="logo.jpg" crc="523413141" ref="tovari-sad:phone>index:v-rulonah-ukraine:index:parnik-plastik">
-      <caption webpage="v-rulonah-ukraine" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="mishechki" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
@@ -168,15 +168,15 @@
       <caption webpage="agrovolokno-ukraine-fasovka" alt=""/>
       <caption webpage="groubegi" alt=""/>
       <caption webpage="agrovolokno-chehia-chorni-ruloni" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
       <caption webpage="geotekstil-chehia-pak" alt=""/>
       <caption webpage="geotekstil-i-geotkan" alt=""/>
       <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
-      <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
+      <caption webpage="agrotkan-chehia" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="parnik-dlya-roslin" alt=""/>
       <caption webpage="agrovolokno-ukraine-bile" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="agrotkan-chehia" alt=""/>
+      <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
       <caption webpage="paletovan-ukraine" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
       <caption webpage="chehiya-ruloni" alt=""/>
@@ -190,9 +190,9 @@
       <caption webpage="agrovolokno-poland" alt=""/>
       <caption webpage="agrovolokno-ukraine-chorne" alt=""/>
       <caption webpage="geotekstil-chehia-rul" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="z-luversami" alt=""/>
       <caption webpage="parnik-gigant" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-shadow" alt=""/>
       <caption webpage="v-rulonah-polska" alt=""/>
@@ -222,20 +222,20 @@
       <caption webpage="tovari-sad" alt=""/>
     </file>
     <file name="1680229634_phonoteka-org-p-zadnii-fon-zelenii-foni-pinterest-2.jpg" crc="239520222" ref="tovari-sad:phone>index:v-rulonah-ukraine:index:parnik-plastik">
-      <caption webpage="v-rulonah-ukraine" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="mishechki" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
+      <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
     </file>
     <file name="podval.jpg" crc="3791905467" ref="tovari-sad:phone>index:v-rulonah-ukraine:index:parnik-plastik">
+      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="mishechki" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="agrovolokno" alt=""/>
@@ -252,18 +252,20 @@
       <caption webpage="agrovolokno-chehia-chorni-ruloni" alt=""/>
       <caption webpage="agrovolokno-chehia-chorni-ruloni" alt=""/>
       <caption webpage="agrovolokno-chehia-chorni-ruloni" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
       <caption webpage="geotekstil-chehia-pak" alt=""/>
       <caption webpage="geotekstil-chehia-pak" alt=""/>
       <caption webpage="geotekstil-chehia-pak" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
+      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
       <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
       <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
       <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
@@ -281,10 +283,8 @@
       <caption webpage="agrovolokno-ukraine-bile" alt=""/>
       <caption webpage="agrovolokno-ukraine-bile" alt=""/>
       <caption webpage="agrovolokno-ukraine-bile" alt=""/>
-      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
-      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
       <caption webpage="agrotkan-chehia" alt=""/>
-      <caption webpage="paletovan-ukraine" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
       <caption webpage="chehiya-ruloni" alt=""/>
       <caption webpage="chehiya-ruloni" alt=""/>
       <caption webpage="chehiya-ruloni" alt=""/>
@@ -298,7 +298,7 @@
       <caption webpage="agrovolokno-chehia-bili-ruloni" alt=""/>
       <caption webpage="agrovolokno-chehia-bili-ruloni" alt=""/>
       <caption webpage="agrotkan-ukraine" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="paletovan-ukraine" alt=""/>
       <caption webpage="agrovolokno-ukraine-chorne" alt=""/>
       <caption webpage="agrovolokno-ukraine-chorne" alt=""/>
       <caption webpage="agrovolokno-ukraine-chorne" alt=""/>
@@ -319,12 +319,12 @@
       <caption webpage="geotekstil-chehia-rul" alt=""/>
       <caption webpage="geotekstil-chehia-rul" alt=""/>
       <caption webpage="geotekstil-chehia-rul" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="z-luversami" alt=""/>
       <caption webpage="z-luversami" alt=""/>
       <caption webpage="z-luversami" alt=""/>
       <caption webpage="mishechki" alt=""/>
       <caption webpage="parnik-gigant" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
@@ -345,18 +345,20 @@
       <caption webpage="agrovolokno-chehia-chorni-ruloni" alt=""/>
       <caption webpage="agrovolokno-chehia-chorni-ruloni" alt=""/>
       <caption webpage="agrovolokno-chehia-chorni-ruloni" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="geotekstil-o-geotkan" alt=""/>
       <caption webpage="geotekstil-chehia-pak" alt=""/>
       <caption webpage="geotekstil-chehia-pak" alt=""/>
       <caption webpage="geotekstil-chehia-pak" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
-      <caption webpage="geotekstil-o-geotkan" alt=""/>
+      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
+      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
       <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
       <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
       <caption webpage="agrovolokno-chehia-fasovka" alt=""/>
@@ -370,10 +372,8 @@
       <caption webpage="parnik-alumimiy" alt=""/>
       <caption webpage="parnik-dlya-roslin" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
-      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
-      <caption webpage="agrovolokno-chehia-posileniy-kray" alt=""/>
       <caption webpage="agrotkan-chehia" alt=""/>
-      <caption webpage="agrovolokno" alt=""/>
+      <caption webpage="paletovan-ukraine" alt=""/>
       <caption webpage="agrovolokno-ukraine-bile" alt=""/>
       <caption webpage="agrovolokno-ukraine-bile" alt=""/>
       <caption webpage="agrovolokno-ukraine-bile" alt=""/>
@@ -392,7 +392,7 @@
       <caption webpage="agrovolokno-chehia-bili-ruloni" alt=""/>
       <caption webpage="agrovolokno-chehia-bili-ruloni" alt=""/>
       <caption webpage="agrotkan-ukraine" alt=""/>
-      <caption webpage="paletovan-ukraine" alt=""/>
+      <caption webpage="agrovolokno" alt=""/>
       <caption webpage="agrovolokno-ukraine-chorne" alt=""/>
       <caption webpage="agrovolokno-ukraine-chorne" alt=""/>
       <caption webpage="agrovolokno-ukraine-chorne" alt=""/>
@@ -410,12 +410,12 @@
       <caption webpage="geotekstil-chehia-rul" alt=""/>
       <caption webpage="geotekstil-chehia-rul" alt=""/>
       <caption webpage="geotekstil-chehia-rul" alt=""/>
+      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="z-luversami" alt=""/>
       <caption webpage="z-luversami" alt=""/>
       <caption webpage="z-luversami" alt=""/>
       <caption webpage="mishechki" alt=""/>
       <caption webpage="parnik-gigant" alt=""/>
-      <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
@@ -2247,8 +2247,8 @@
       <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="tovari-sad" alt=""/>
       <caption webpage="pro-nas" alt=""/>
+      <caption webpage="tovari-sad" alt=""/>
     </file>
     <file name="inst.png" crc="4238320648" ref="tovari-sad:pro-nas:phone>index:phone>pro-nas:v-rulonah-ukraine:index:parnik-plastik">
       <caption webpage="index" alt=""/>
@@ -2256,8 +2256,8 @@
       <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="tovari-sad" alt=""/>
       <caption webpage="pro-nas" alt=""/>
+      <caption webpage="tovari-sad" alt=""/>
     </file>
     <file name="tiktok-app-icon-social-media-logo-vector-illustration_277909-404.png" crc="3893167126" ref="tovari-sad:pro-nas:phone>index:phone>pro-nas:v-rulonah-ukraine:index:parnik-plastik">
       <caption webpage="index" alt=""/>
@@ -2265,16 +2265,16 @@
       <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="tovari-sad1" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="tovari-sad" alt=""/>
       <caption webpage="pro-nas" alt=""/>
+      <caption webpage="tovari-sad" alt=""/>
     </file>
     <file name="u34721-4.png" crc="52768324" ref="tovari-sad:index:parnik-alumimiy:parnik-plastik:v-rulonah-ukraine:agrovolokno:dverna:vikonna:parniki:zatinyaucha-sitka:parnik-gigant:parnik-dlya-roslin:parnik-agrolider:parnik-shadow:paletovan-ukraine:moskitna-sitka:v-rulonah-polska:z-luversami:chehiya-ruloni:chehiya-fasovka:mishechki:geotekstil-i-geotkan:agrovolokno-ukraine-bile:agrovolokno-ukraine-chorne:agrovolokno-ukraine-fasovka:agrovolokno-chehia-bili-ruloni:agrovolokno-poland:agrovolokno-chehia-posileniy-kray:agrovolokno-chehia-chorni-ruloni:agrovolokno-chehia-fasovka:groubegi:tkanevi-gorshiki:agrotkan-ukraine:agrotkan-chehia:geotekstil-chehia-rul:geotekstil-chehia-pak:pro-nas:umovu-dostavki"/>
     <file name="viber.png" crc="4030817101" ref="tovari-sad:pro-nas:phone>index:phone>pro-nas:v-rulonah-ukraine:index:parnik-plastik">
       <caption webpage="index" alt=""/>
       <caption webpage="v-rulonah-ukraine" alt=""/>
       <caption webpage="parnik-plastik" alt=""/>
-      <caption webpage="pro-nas" alt=""/>
       <caption webpage="tovari-sad" alt=""/>
+      <caption webpage="pro-nas" alt=""/>
     </file>
     <file name="u34336-4.png" crc="378296991" ref="index"/>
     <file name="u34384-4.png" crc="4103823023" ref="index"/>
@@ -2407,7 +2407,7 @@
   </folder>
   <file name="index.html" crc="4162581338" seo="true" mt="1718048115085" redirect="true"/>
   <file name="parnik-alumimiy.html" crc="274082647" seo="true" mt="1717977729863" redirect="true"/>
-  <file name="parnik-plastik.html" crc="237195222" seo="true" mt="1718050348405" redirect="true"/>
+  <file name="parnik-plastik.html" crc="321595472" seo="true" mt="1718050800084" redirect="true"/>
   <file name="v-rulonah-ukraine.html" crc="193332909" seo="true" mt="1718016359813" redirect="true"/>
   <file name="agrovolokno.html" crc="4303179" seo="true" mt="1717977729863" redirect="true"/>
   <file name="dverna.html" crc="259551435" seo="true" mt="1717977729863" redirect="true"/>
