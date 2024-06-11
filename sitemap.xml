@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/parnik-alumimiy.html</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/parnik-alumimiy.html"/>
@@ -134,10 +134,25 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/v-rulonah-ukraine.html</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/v-rulonah-ukraine.html"/>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/4.jpg</image:loc>
+    </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/6.jpg</image:loc>
     </image:image>
@@ -171,21 +186,6 @@
     <image:image>
       <image:loc>http://ngg.pp.ua/images/8199x171.jpg</image:loc>
     </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/32.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/52.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/12.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/42.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/22.jpg</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>http://ngg.pp.ua/agrovolokno.html</loc>
@@ -193,6 +193,15 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/agrovolokno.html"/>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/agro.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/13.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/43.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://ngg.pp.ua/dverna.html</loc>
@@ -293,18 +302,24 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/vikonna.html</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/vikonna.html"/>
     <image:image>
-      <image:loc>http://ngg.pp.ua/images/17.jpg</image:loc>
+      <image:loc>http://ngg.pp.ua/images/13.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/43.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/52.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/33.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/1156x106.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/34.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/3156x106.jpg</image:loc>
@@ -314,12 +329,6 @@
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/5156x106.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/46.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/54.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -578,19 +587,7 @@
       <image:loc>http://ngg.pp.ua/images/8.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ngg.pp.ua/images/32.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://ngg.pp.ua/images/52.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/12.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/42.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/22.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -644,9 +641,6 @@
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/55.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/12.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -978,7 +972,7 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/agrovolokno-ukraine-fasovka.html</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/agrovolokno-ukraine-fasovka.html"/>
@@ -986,13 +980,19 @@
       <image:loc>http://ngg.pp.ua/images/3151101509_w600_h600_3151101509.jpg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://ngg.pp.ua/images/2105651522_w600_h600_2105651522.jpg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://ngg.pp.ua/images/3639236826_w600_h600_3639236826.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ngg.pp.ua/images/agrovolokno2.jpg</image:loc>
+      <image:loc>http://ngg.pp.ua/images/agrovolokno.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ngg.pp.ua/images/2105651522_w600_h600_21056515222.jpg</image:loc>
+      <image:loc>http://ngg.pp.ua/images/3151101509_w600_h600_3151101509183x183.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ngg.pp.ua/images/3639236826_w600_h600_3639236826169x126.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/1305296212_w640_h640_1305296212.jpg</image:loc>
@@ -1364,15 +1364,15 @@
   </url>
   <url>
     <loc>http://ngg.pp.ua/agrotkan-ukraine.html</loc>
-    <lastmod>2024-06-10</lastmod>
+    <lastmod>2024-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/agrotkan-ukraine.html"/>
     <image:image>
-      <image:loc>http://ngg.pp.ua/images/01c5de64d87c2143026a58a6cfedb7dc.jpg</image:loc>
+      <image:loc>http://ngg.pp.ua/images/agro.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ngg.pp.ua/images/agro2.jpg</image:loc>
+      <image:loc>http://ngg.pp.ua/images/01c5de64d87c2143026a58a6cfedb7dc.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/3677277439_w600_h600_3677277439.jpg</image:loc>
