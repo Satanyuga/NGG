@@ -240,9 +240,6 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/agrovolokno.html"/>
     <image:image>
-      <image:loc>http://ngg.pp.ua/images/agro.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://ngg.pp.ua/images/13.jpg</image:loc>
     </image:image>
     <image:image>
@@ -1367,9 +1364,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://ngg.pp.ua/phone/agrotkan-ukraine.html"/>
-    <image:image>
-      <image:loc>http://ngg.pp.ua/images/agro.jpg</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://ngg.pp.ua/images/01c5de64d87c2143026a58a6cfedb7dc.jpg</image:loc>
     </image:image>
