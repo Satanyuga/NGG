@@ -20,7 +20,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=162408405"/>
-  <link rel="stylesheet" type="text/css" href="css/zat-klipsa.css?crc=3875452309" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/zat-klipsa.css?crc=9502723" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="../scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -270,8 +270,8 @@ Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(el
 Muse.Utils.initWidget('#accordionu37524', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu37524 */
 Muse.Utils.initWidget('#slideshowu49128', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:100,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:true,shuffle:false,transitionDuration:0,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu49128 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u38712').registerPositionScrollEffect([{"in":[-Infinity,71],"speed":[0,0]},{"in":[71,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u38712').registerBackgroundPositionScrollEffect([{"in":[-Infinity,71],"speed":[0,1]},{"in":[71,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u38712').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,71]},{"speed":[0,0],"in":[71,Infinity]}]);/* scroll effect */
+$('#u38712').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,71]},{"speed":[0,1],"in":[71,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
