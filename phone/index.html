@@ -22,7 +22,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=162408405"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4219128091" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3774707099" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="../scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -56,7 +56,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="browser_width grpelem" id="u38767-4-bw">
       <div class="clearfix" id="u38767-4"><!-- content -->
-       <p>New Garden Goods</p>
+       <h1>New Garden Goods</h1>
       </div>
      </div>
     </div>
@@ -97,7 +97,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="gradient rounded-corners clearfix colelem" id="u38768"><!-- group -->
      <div class="clearfix grpelem" id="u38769-4"><!-- content -->
-      <p>Раді вітати Вас на сторінках нашого інтернет-магазину</p>
+      <h2>Раді вітати Вас на сторінках нашого інтернет-магазину</h2>
      </div>
     </div>
     <div class="browser_width colelem" id="u38770-bw">
@@ -117,7 +117,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="browser_width colelem" id="u38775-bw">
      <div class="shadow gradient rounded-corners clearfix" id="u38775"><!-- group -->
       <div class="clearfix grpelem" id="u38776-13"><!-- content -->
-       <p id="u38776-2">Ми пропонуємо:</p>
+       <h2 id="u38776-2">Ми пропонуємо:</h2>
        <p id="u38776-3">&nbsp;</p>
        <p id="u38776-5">Високу якість: Ми співпрацюємо з кращими виробниками, щоб гарантувати, що ви отримуєте лише якісні товари.</p>
        <p id="u38776-7">Доступні ціни: Ми пропонуємо конкурентні ціни на всю нашу продукцію.</p>
@@ -207,8 +207,8 @@ Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(el
 Muse.Utils.initWidget('#accordionu37524', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu37524 */
 Muse.Utils.initWidget('#slideshowu38731', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'horizontal',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu38731 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u38712').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,71]},{"speed":[0,0],"in":[71,Infinity]}]);/* scroll effect */
-$('#u38712').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,71]},{"speed":[0,1],"in":[71,Infinity]}]);/* scroll effect */
+$('#u38712').registerPositionScrollEffect([{"in":[-Infinity,71],"speed":[0,0]},{"in":[71,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u38712').registerBackgroundPositionScrollEffect([{"in":[-Infinity,71],"speed":[0,1]},{"in":[71,Infinity],"speed":[0,1]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

@@ -22,7 +22,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=162408405"/>
-  <link rel="stylesheet" type="text/css" href="css/umovu-dostavki.css?crc=4137475895" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/umovu-dostavki.css?crc=4088233634" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="../scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -57,7 +57,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="browser_width grpelem" id="u39481-5-bw">
       <div class="clearfix" id="u39481-5"><!-- content -->
        <p id="u39481">&nbsp;</p>
-       <p id="u39481-3">Умови доставки та оплати</p>
+       <h1 id="u39481-3">Умови доставки та оплати</h1>
       </div>
      </div>
     </div>
@@ -69,10 +69,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="verticalspacer" data-offset-top="998" data-content-above-spacer="998" data-content-below-spacer="72"></div>
    <div class="clearfix grpelem" id="pu39483-44"><!-- column -->
     <div class="clearfix colelem" id="u39483-44"><!-- content -->
-     <p id="u39483-2">Шановний покупцю,</p>
+     <h2 id="u39483-2">Шановний покупцю,</h2>
      <p id="u39483-3">&nbsp;</p>
      <p id="u39483-5">Будь ласка, зверніть увагу на те, що ми працюємо лише в онлайн-режимі. Самовивіз недоступний. Це пов'язано з тим, що деякі товари можуть постачатися від різних виробників та складів, які знаходяться у інших містах.</p>
-     <p id="u39483-10"><br/><span id="u39483-7">Відправка на протязі 2-3 робочих днів.</span><br/><br/></p>
+     <h2 id="u39483-10"><br/><span id="u39483-7">Відправка на протязі 2-3 робочих днів.</span><br/><br/></h2>
      <p id="u39483-13"><br/>Способи доставки:</p>
      <p>&nbsp;</p>
      <ul class="list0 nls-None" id="u39483-17">
@@ -171,8 +171,8 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#accordionu37524', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu37524 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u38712').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,71]},{"speed":[0,0],"in":[71,Infinity]}]);/* scroll effect */
-$('#u38712').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,71]},{"speed":[0,1],"in":[71,Infinity]}]);/* scroll effect */
+$('#u38712').registerPositionScrollEffect([{"in":[-Infinity,71],"speed":[0,0]},{"in":[71,Infinity],"speed":[0,0]}]);/* scroll effect */
+$('#u38712').registerBackgroundPositionScrollEffect([{"in":[-Infinity,71],"speed":[0,1]},{"in":[71,Infinity],"speed":[0,1]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
