@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=407709863"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=432547147" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3759587397" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -218,45 +218,48 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
      </div>
      <div class="grpelem" id="u78763"><!-- custom html -->
-      <div class="cell-value">Загрузка...</div>
+      <div class="cell-value cell-value-d8">Загрузка...</div>
+
+<style>
+  .cell-value-d8 {
+    font-size: 16px;
+    color: blue; /* Цвет текста */
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: Arial, sans-serif; /* Шрифт */
+  }
+</style>
 
 <script>
   (function() {
-    // URL опубликованной таблицы в формате CSV
     const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv";
+    const cellAddress = "B3";
 
-    // Меняй только эту строку для каждой ячейки
-    const cellAddress = "B3"; // Например: "D9", "B8"
-
-    // Находим ближайший элемент с классом cell-value перед этим скриптом
     const scriptTag = document.currentScript;
-    const cellElement = scriptTag.previousElementSibling;
+    const cellElement = scriptTag.previousElementSibling.nextElementSibling;
 
     if (!cellElement || !cellElement.classList.contains("cell-value")) {
       console.error("Не найден элемент с классом cell-value перед скриптом");
       return;
     }
 
-    // Функция для преобразования буквенного столбца в номер (A=0, B=1, ...)
     function columnToIndex(col) {
       let index = 0;
       for (let i = 0; i < col.length; i++) {
         index = index * 26 + (col.charCodeAt(i) - 65 + 1);
       }
-      return index - 1; // Нумерация с 0
+      return index - 1;
     }
 
-    // Разбираем адрес ячейки (например, "D8" → столбец D, строка 8)
     const colMatch = cellAddress.match(/[A-Z]+/);
     const rowMatch = cellAddress.match(/\d+/);
     if (!colMatch || !rowMatch) {
       cellElement.innerHTML = "Ошибка: Неверный формат ячейки";
       return;
     }
-    const colIndex = columnToIndex(colMatch[0]); // Например, D → 3
-    const rowIndex = parseInt(rowMatch[0], 10) - 1; // Например, 8 → 7 (нумерация с 0)
+    const colIndex = columnToIndex(colMatch[0]);
+    const rowIndex = parseInt(rowMatch[0], 10) - 1;
 
-    // Загружаем CSV
     fetch(sheetUrl)
       .then(response => {
         if (!response.ok) {
@@ -265,15 +268,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         return response.text();
       })
       .then(csvText => {
-        // Разбираем CSV в массив
         const rows = csvText.split("\n").map(row => row.split(","));
-        
-        // Проверяем, существует ли нужная строка и столбец
         if (rows.length <= rowIndex || rows[rowIndex].length <= colIndex) {
           throw new Error("Ячейка " + cellAddress + " не найдена в таблице");
         }
-
-        // Получаем значение ячейки
         const value = rows[rowIndex][colIndex] || "Ячейка пуста";
         cellElement.innerHTML = value;
       })
@@ -290,7 +288,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="browser_width" id="u6641-bw">
     <div class="museBGSize" id="u6641"><!-- simple frame --></div>
    </div>
-   <div class="verticalspacer" data-offset-top="2082" data-content-above-spacer="2082" data-content-below-spacer="402"></div>
+   <div class="verticalspacer" data-offset-top="2036" data-content-above-spacer="2036" data-content-below-spacer="402"></div>
    <div class="browser_width grpelem" id="u768-bw">
     <div class="museBGSize" id="u768"><!-- group -->
      <div class="clearfix" id="u768_align_to_page">
