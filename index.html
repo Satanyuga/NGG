@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=407709863"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3759587397" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4246811773" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -218,31 +218,46 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
      </div>
      <div class="grpelem" id="u78763"><!-- custom html -->
-      <div class="cell-value cell-value-d8">Загрузка...</div>
-
-<style>
-  .cell-value-d8 {
-    font-size: 16px;
-    color: blue; /* Цвет текста */
-    font-weight: bold;
-    margin: 10px 0;
-    font-family: Arial, sans-serif; /* Шрифт */
-  }
-</style>
+      <div class="cell-value" data-cell="B3">Загрузка...</div>
 
 <script>
   (function() {
-    const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv";
-    const cellAddress = "B3";
-
+    // Получаем элемент div
     const scriptTag = document.currentScript;
-    const cellElement = scriptTag.previousElementSibling.nextElementSibling;
+    const cellElement = scriptTag.previousElementSibling;
 
+    // Проверяем, что элемент существует и имеет класс cell-value
     if (!cellElement || !cellElement.classList.contains("cell-value")) {
       console.error("Не найден элемент с классом cell-value перед скриптом");
       return;
     }
 
+    // Получаем адрес ячейки из атрибута data-cell (меняй только здесь)
+    const cellAddress = cellElement.getAttribute("data-cell"); // Например, "B3"
+
+    // Генерируем уникальный класс на основе адреса ячейки
+    const uniqueClass = "cell-value-" + cellAddress.toLowerCase().replace(/[^a-z0-9]/g, ""); // Например, "cell-value-b3"
+
+    // Добавляем уникальный класс к элементу
+    cellElement.classList.add(uniqueClass);
+
+    // Создаём стиль для этого блока
+    const style = document.createElement("style");
+    style.textContent = `
+      .${uniqueClass} {
+        font-size: 16px;
+        color: blue; /* Цвет текста */
+        font-weight: bold;
+        margin: 10px 0;
+        font-family: Arial, sans-serif; /* Шрифт */
+      }
+    `;
+    document.head.appendChild(style);
+
+    // URL таблицы
+    const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv";
+
+    // Функция для преобразования буквенного столбца в номер (A=0, B=1, ...)
     function columnToIndex(col) {
       let index = 0;
       for (let i = 0; i < col.length; i++) {
@@ -251,6 +266,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       return index - 1;
     }
 
+    // Разбираем адрес ячейки (например, "B3" → столбец B, строка 3)
     const colMatch = cellAddress.match(/[A-Z]+/);
     const rowMatch = cellAddress.match(/\d+/);
     if (!colMatch || !rowMatch) {
@@ -260,6 +276,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     const colIndex = columnToIndex(colMatch[0]);
     const rowIndex = parseInt(rowMatch[0], 10) - 1;
 
+    // Загружаем CSV
     fetch(sheetUrl)
       .then(response => {
         if (!response.ok) {
