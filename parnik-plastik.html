@@ -442,20 +442,18 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
      </div>
      <div class="grpelem" id="u78730"><!-- custom html -->
       <script>
-const cell = "B6"; // Указывай нужную ячейку здесь
-const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID твоей таблицы
+function loadPrice(cell) {
+    fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell} LIMIT 1`)
+    .then(response => response.text())
+    .then(data => {
+        let json = JSON.parse(data.substr(47).slice(0, -2));
+        let price = json.table.rows[0].c[0].v;
+        document.getElementById("price").innerText = price + " грн";  
+    });
+}
 
-fetch(`https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=SELECT ${cell[0]} WHERE ${cell} IS NOT NULL LIMIT 1`)
-  .then(response => response.text())
-  .then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2));
-    let price = json.table.rows[0]?.c[0]?.v;
-    if (price !== undefined) {
-      document.getElementById("price").innerText = price + " грн";  
-    } else {
-      document.getElementById("price").innerText = "Помилка завантаження";  
-    }
-  });
+// Заменяй B3 на любую ячейку
+loadPrice('B6');
 </script>
 
 <p>Ціна: <span id="price">1000?</span></p>
@@ -469,20 +467,18 @@ fetch(`https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=SELECT ${cel
      </div>
      <div class="grpelem" id="u78735"><!-- custom html -->
       <script>
-const cell = "C9"; // Указывай нужную ячейку здесь
-const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID твоей таблицы
+function loadPrice(cell) {
+    fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell} LIMIT 1`)
+    .then(response => response.text())
+    .then(data => {
+        let json = JSON.parse(data.substr(47).slice(0, -2));
+        let price = json.table.rows[0].c[0].v;
+        document.getElementById("price").innerText = price + " грн";  
+    });
+}
 
-fetch(`https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=SELECT ${cell[0]} WHERE ${cell} IS NOT NULL LIMIT 1`)
-  .then(response => response.text())
-  .then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2));
-    let price = json.table.rows[0]?.c[0]?.v;
-    if (price !== undefined) {
-      document.getElementById("price").innerText = price + " грн";  
-    } else {
-      document.getElementById("price").innerText = "Помилка завантаження";  
-    }
-  });
+// Заменяй B3 на любую ячейку
+loadPrice('C8');
 </script>
 
 <p>Ціна: <span id="price">1000?</span></p>
