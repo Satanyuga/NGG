@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=4095200464" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=3776243622" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -462,7 +462,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
-  const range = "Лист1!B6";
+  const range = "Лист1!B6:B6"; // Запрашиваем диапазон B6:B6
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
@@ -478,7 +478,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         throw new Error("Ячейка B6 пуста или данные недоступны");
       }
       let value = data.values[0][0]; // Значение ячейки B6
-      // Убираем пробелы и приводим к числовому формату
       value = value.replace(/\s/g, ""); // Удаляем пробелы
       document.getElementById("priceB6").innerHTML = value;
     })
@@ -500,7 +499,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
-  const range = "Лист1!C8";
+  const range = "Лист1!C8:C8"; // Запрашиваем диапазон C8:C8
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
