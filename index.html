@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=407709863"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4032714971" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=16162128" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -147,88 +147,96 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p id="u34523-11">Корисні поради: На нашому сайті ви знайдете багато корисної інформації про вирощування рослин, догляд за садом та городом.</p>
      </div>
     </div>
-    <div class="colelem" id="u78763"><!-- custom html -->
-     <div id="priceB3_2">Загрузка...</div>
-<div id="priceC3_2">Загрузка...</div>
-<div id="priceD3_2">Загрузка...</div>
-
-<script>
-  const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
-  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
-
-  function loadCell(range, elementId) {
-    const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
-    fetch(url)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("HTTP error! Status: " + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
-        console.log("Данные для " + range + ":", data);
-        if (!data.values || !data.values[0] || !data.values[0][0]) {
-          throw new Error("Ячейка " + range + " пуста или данные недоступны");
-        }
-        const value = data.values[0][0];
-        document.getElementById(elementId).innerHTML = value;
-      })
-      .catch(error => {
-        console.error("Ошибка при загрузке " + range + ":", error.message);
-        document.getElementById(elementId).innerHTML = "Ошибка: " + error.message;
-      });
-  }
-
-  loadCell("Лист2!B3", "priceB3_2");
-  loadCell("Лист2!C3", "priceC3_2");
-  loadCell("Лист2!D3", "priceD3_2");
-</script>
-    </div>
-    <div class="colelem" id="u78759"><!-- custom html -->
-     <!-- Блок для ячеек B3, C3, D3 -->
+    <div class="colelem" id="u78767"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="pu78759"><!-- group -->
+     <div class="grpelem" id="u78759"><!-- custom html -->
+      <!-- Первый набор div -->
 <div id="priceB3">Загрузка...</div>
 <div id="priceC3">Загрузка...</div>
 <div id="priceD3">Загрузка...</div>
 
 <script>
-  const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
-  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
+  (function() {
+    const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
+    const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
 
-  // Функция для загрузки данных
-  function loadCell(range, elementId) {
-    const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
-    fetch(url)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("HTTP error! Status: " + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
-        console.log("Данные для " + range + ":", data); // Отладка
-        if (!data.values || !data.values[0] || !data.values[0][0]) {
-          throw new Error("Ячейка " + range + " пуста или данные недоступны");
-        }
-        const value = data.values[0][0];
-        document.getElementById(elementId).innerHTML = value;
-      })
-      .catch(error => {
-        console.error("Ошибка при загрузке " + range + ":", error.message);
-        document.getElementById(elementId).innerHTML = "Ошибка: " + error.message;
-      });
-  }
+    function loadCell(range, elementId) {
+      const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("HTTP error! Status: " + response.status);
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log("Данные для " + range + ":", data);
+          if (!data.values || !data.values[0] || !data.values[0][0]) {
+            throw new Error("Ячейка " + range + " пуста или данные недоступны");
+          }
+          const value = data.values[0][0];
+          document.getElementById(elementId).innerHTML = value;
+        })
+        .catch(error => {
+          console.error("Ошибка при загрузке " + range + ":", error.message);
+          document.getElementById(elementId).innerHTML = "Ошибка: " + error.message;
+        });
+    }
 
-  // Загружаем данные для всех ячеек
-  loadCell("Лист2!B3", "priceB3");
-  loadCell("Лист2!C3", "priceC3");
-  loadCell("Лист2!D3", "priceD3");
+    loadCell("Лист2!B3", "priceB3");
+    loadCell("Лист2!C3", "priceC3");
+    loadCell("Лист2!D3", "priceD3");
+  })();
 </script>
+
+     </div>
+     <div class="grpelem" id="u78763"><!-- custom html -->
+      <!-- Второй набор div -->
+<div id="priceB3_2">Загрузка...</div>
+<div id="priceC3_2">Загрузка...</div>
+<div id="priceD3_2">Загрузка...</div>
+
+<script>
+  (function() {
+    const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
+    const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
+
+    function loadCell(range, elementId) {
+      const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("HTTP error! Status: " + response.status);
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log("Данные для " + range + ":", data);
+          if (!data.values || !data.values[0] || !data.values[0][0]) {
+            throw new Error("Ячейка " + range + " пуста или данные недоступны");
+          }
+          const value = data.values[0][0];
+          document.getElementById(elementId).innerHTML = value;
+        })
+        .catch(error => {
+          console.error("Ошибка при загрузке " + range + ":", error.message);
+          document.getElementById(elementId).innerHTML = "Ошибка: " + error.message;
+        });
+    }
+
+    loadCell("Лист2!B3", "priceB3_2");
+    loadCell("Лист2!C3", "priceC3_2");
+    loadCell("Лист2!D3", "priceD3_2");
+  })();
+</script>
+
+     </div>
     </div>
    </div>
    <div class="browser_width" id="u6641-bw">
     <div class="museBGSize" id="u6641"><!-- simple frame --></div>
    </div>
-   <div class="verticalspacer" data-offset-top="2270" data-content-above-spacer="2270" data-content-below-spacer="402"></div>
+   <div class="verticalspacer" data-offset-top="2082" data-content-above-spacer="2082" data-content-below-spacer="402"></div>
    <div class="browser_width grpelem" id="u768-bw">
     <div class="museBGSize" id="u768"><!-- group -->
      <div class="clearfix" id="u768_align_to_page">
