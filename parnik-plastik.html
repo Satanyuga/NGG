@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=265832495" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=3784159570" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -429,7 +429,7 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[2].c[0].v;  // Индекс 2 — это строка B3
+    let price = json.table.rows[0].c[0].v;  // Б3 — это первая строка, индекс 0
     document.getElementById("price").innerText = price + " грн";  
 });
 </script>
@@ -449,7 +449,7 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[5].c[0].v;  // Индекс 5 — это строка B6
+    let price = json.table.rows[5].c[0].v;  // B6 — индекс 5
     document.getElementById("price").innerText = price + " грн";  
 });
 </script>
@@ -469,7 +469,7 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[7].c[0].v;  // Индекс 7 — это строка C8
+    let price = json.table.rows[7].c[0].v;  // C8 — индекс 7
     document.getElementById("price").innerText = price + " грн";  
 });
 </script>
