@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=4254898363" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=122934025" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -428,8 +428,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
-  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // Правильный ID
-  const range = "Лист1!B3"; // Лист1 и ячейка B3
+  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
+  const range = "Лист1!B3";
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
@@ -441,6 +441,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       return response.json();
     })
     .then(data => {
+      if (!data.values || !data.values[0] || !data.values[0][0]) {
+        throw new Error("Ячейка B3 пуста или данные недоступны");
+      }
       const value = data.values[0][0]; // Значение ячейки B3
       document.getElementById("priceB3").innerHTML = value;
     })
@@ -481,6 +484,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       document.getElementById("priceC3").innerHTML = value;
     })
     .catch(error => {
+      console.error("Ошибка при загрузке C3:", error.message);
+      document.getElementById("priceC3").innerHTML = "Ошибка: " + error.message;
+    });
+</script>
 
      </div>
     </div>
@@ -524,7 +531,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="browser_width" id="u6641-bw">
     <div class="museBGSize" id="u6641"><!-- simple frame --></div>
    </div>
-   <div class="verticalspacer" data-offset-top="3900" data-content-above-spacer="3900" data-content-below-spacer="402"></div>
+   <div class="verticalspacer" data-offset-top="4070" data-content-above-spacer="4070" data-content-below-spacer="402"></div>
    <div class="browser_width grpelem" id="u768-bw">
     <div class="museBGSize" id="u768"><!-- group -->
      <div class="clearfix" id="u768_align_to_page">
