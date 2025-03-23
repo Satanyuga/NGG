@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=426964189" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=300957279" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -425,18 +425,20 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="grpelem" id="u78717"><!-- custom html -->
       <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT B LIMIT 6')
+fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml/gviz/tq?tq=SELECT%20B%20LIMIT%206')
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[5]?.c[0]?.v;  // Индекс 5 - это B6
+    let price = json.table.rows[2]?.c[0]?.v;  // Индекс 5 — это строка B6 (и столбец C)
+    console.log(json);  // Для отладки: смотри, что приходит в консоль
     if (price !== undefined) {
         document.getElementById("price").innerText = price + " грн";  
     } else {
         document.getElementById("price").innerText = "Помилка завантаження";
     }
 })
-.catch(() => {
+.catch(error => {
+    console.error(error);  // Печатает ошибку в консоль
     document.getElementById("price").innerText = "Помилка завантаження";
 });
 </script>
@@ -452,18 +454,20 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
      </div>
      <div class="grpelem" id="u78730"><!-- custom html -->
       <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT B LIMIT 6')
+fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml/gviz/tq?tq=SELECT%20B%20LIMIT%206')
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[5]?.c[0]?.v;  // Индекс 5 — это B6, потому что индексация с 0
+    let price = json.table.rows[5]?.c[0]?.v;  // Индекс 5 — это строка B6 (и столбец C)
+    console.log(json);  // Для отладки: смотри, что приходит в консоль
     if (price !== undefined) {
         document.getElementById("price").innerText = price + " грн";  
     } else {
         document.getElementById("price").innerText = "Помилка завантаження";
     }
 })
-.catch(() => {
+.catch(error => {
+    console.error(error);  // Печатает ошибку в консоль
     document.getElementById("price").innerText = "Помилка завантаження";
 });
 </script>
@@ -479,18 +483,20 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
      </div>
      <div class="grpelem" id="u78735"><!-- custom html -->
       <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT C LIMIT 7')
+fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml/gviz/tq?tq=SELECT%20C%20LIMIT%206')
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[5]?.c[0]?.v;  // Индекс 5 - это B6
+    let price = json.table.rows[7]?.c[0]?.v;  // Индекс 5 — это строка B6 (и столбец C)
+    console.log(json);  // Для отладки: смотри, что приходит в консоль
     if (price !== undefined) {
         document.getElementById("price").innerText = price + " грн";  
     } else {
         document.getElementById("price").innerText = "Помилка завантаження";
     }
 })
-.catch(() => {
+.catch(error => {
+    console.error(error);  // Печатает ошибку в консоль
     document.getElementById("price").innerText = "Помилка завантаження";
 });
 </script>
