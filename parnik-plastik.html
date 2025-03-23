@@ -425,19 +425,34 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="grpelem" id="u78717"><!-- custom html -->
       <script>
 const cell = "B4"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
+const maxAttempts = 5; // Сколько раз пытаться загрузить данные, если не получилось сразу
 
-fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`)
-.then(response => response.text())
-.then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let cellData = json.table.rows[0]?.c[0]; 
-    let value = cellData?.v ?? "Немає даних"; 
-    document.getElementById("price").innerText = value + " грн";  
-})
-.catch(error => {
-    console.error("Помилка завантаження даних:", error);
-    document.getElementById("price").innerText = "Помилка завантаження";
-});
+function loadPrice(attempt = 1) {
+    fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`)
+    .then(response => response.text())
+    .then(data => {
+        let json = JSON.parse(data.substr(47).slice(0, -2)); 
+        let cellData = json.table.rows[0]?.c[0];
+        let value = cellData?.v ?? null;
+
+        if (value === null && attempt < maxAttempts) {
+            setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем попытку через 1 сек
+        } else {
+            document.getElementById("price").innerText = value !== null ? value + " грн" : "Немає даних";
+        }
+    })
+    .catch(error => {
+        console.error("Помилка завантаження даних:", error);
+        if (attempt < maxAttempts) {
+            setTimeout(() => loadPrice(attempt + 1), 1000); // Пробуем ещё раз
+        } else {
+            document.getElementById("price").innerText = "Помилка завантаження";
+        }
+    });
+}
+
+document.getElementById("price").innerText = "Завантаження...";
+loadPrice();
 </script>
 
 <p>Ціна: <span id="price">Завантаження...</span></p>
