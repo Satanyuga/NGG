@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=407709863"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=16162128" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=109403351" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -191,18 +191,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
      </div>
      <div class="grpelem" id="u78763"><!-- custom html -->
-      <!-- Второй набор div -->
-<div id="priceB3_2">Загрузка...</div>
-<div id="priceC3_2">Загрузка...</div>
-<div id="priceD3_2">Загрузка...</div>
+      <div class="cell-value">Загрузка...</div>
 
 <script>
   (function() {
     const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
     const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
 
-    function loadCell(range, elementId) {
-      const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
+    // Меняй только эту строку для каждой ячейки
+    const cellRange = "Лист2!D8"; // Например: "Лист2!D9", "Лист2!B8"
+
+    // Находим ближайший элемент с классом cell-value перед этим скриптом
+    const scriptTag = document.currentScript;
+    const cellElement = scriptTag.previousElementSibling;
+
+    if (cellElement && cellElement.classList.contains("cell-value")) {
+      const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + cellRange + "?key=" + apiKey;
       fetch(url)
         .then(response => {
           if (!response.ok) {
@@ -211,22 +215,20 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           return response.json();
         })
         .then(data => {
-          console.log("Данные для " + range + ":", data);
+          console.log("Данные для " + cellRange + ":", data);
           if (!data.values || !data.values[0] || !data.values[0][0]) {
-            throw new Error("Ячейка " + range + " пуста или данные недоступны");
+            throw new Error("Ячейка " + cellRange + " пуста или данные недоступны");
           }
           const value = data.values[0][0];
-          document.getElementById(elementId).innerHTML = value;
+          cellElement.innerHTML = value;
         })
         .catch(error => {
-          console.error("Ошибка при загрузке " + range + ":", error.message);
-          document.getElementById(elementId).innerHTML = "Ошибка: " + error.message;
+          console.error("Ошибка при загрузке " + cellRange + ":", error.message);
+          cellElement.innerHTML = "Ошибка: " + error.message;
         });
+    } else {
+      console.error("Не найден элемент с классом cell-value перед скриптом");
     }
-
-    loadCell("Лист2!B3", "priceB3_2");
-    loadCell("Лист2!C3", "priceC3_2");
-    loadCell("Лист2!D3", "priceD3_2");
   })();
 </script>
 
