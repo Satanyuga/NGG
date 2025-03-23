@@ -424,43 +424,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="grpelem" id="u78717"><!-- custom html -->
       <script>
-const cell = "B3"; // Укажи ячейку здесь
-const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID таблицы
-
-async function loadPrice() {
-    // Получаем данные с Google Sheets API
-    const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`;
-    
-    try {
-        const response = await fetch(url);
-        const text = await response.text();
-        const json = JSON.parse(text.substr(47).slice(0, -2));
-        
-        const price = json.table.rows[0]?.c[0]?.v;
-        
-        if (price !== undefined) {
-            document.getElementById("price").innerText = price + " грн";
-        } else {
-            console.warn("Нет данных, пытаюсь снова...");
-            setTimeout(loadPrice, 1000); // Повторить через 1 секунду
-        }
-    } catch (error) {
-        console.error("Ошибка загрузки данных:", error);
-        document.getElementById("price").innerText = "Помилка завантаження";
-    }
-}
-
-// Стартовая загрузка
-document.getElementById("price").innerText = "Завантаження...";
-loadPrice();
-
-// Обновление каждые 30 секунд
-setInterval(loadPrice, 30000);
+fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT B LIMIT 1')
+.then(response => response.text())
+.then(data => {
+    let json = JSON.parse(data.substr(47).slice(0, -2)); 
+    let price = json.table.rows[0].c[0].v;  
+    document.getElementById("price").innerText = price + " грн";  
+});
 </script>
 
-<p>Ціна: <span id="price">Завантаження...</span></p>
-
-
+<p>Ціна: <span id="price">1000?</span></p>
      </div>
     </div>
     <div class="clearfix colelem" id="pu78724-4"><!-- group -->
@@ -469,41 +442,23 @@ setInterval(loadPrice, 30000);
      </div>
      <div class="grpelem" id="u78730"><!-- custom html -->
       <script>
-const cell = "B6"; // Укажи ячейку здесь
-const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID таблицы
+const cell = "B6"; // Указывай нужную ячейку здесь
+const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID твоей таблицы
 
-async function loadPrice() {
-    // Получаем данные с Google Sheets API
-    const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`;
-    
-    try {
-        const response = await fetch(url);
-        const text = await response.text();
-        const json = JSON.parse(text.substr(47).slice(0, -2));
-        
-        const price = json.table.rows[0]?.c[0]?.v;
-        
-        if (price !== undefined) {
-            document.getElementById("price").innerText = price + " грн";
-        } else {
-            console.warn("Нет данных, пытаюсь снова...");
-            setTimeout(loadPrice, 1000); // Повторить через 1 секунду
-        }
-    } catch (error) {
-        console.error("Ошибка загрузки данных:", error);
-        document.getElementById("price").innerText = "Помилка завантаження";
+fetch(`https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=SELECT ${cell[0]} WHERE ${cell} IS NOT NULL LIMIT 1`)
+  .then(response => response.text())
+  .then(data => {
+    let json = JSON.parse(data.substr(47).slice(0, -2));
+    let price = json.table.rows[0]?.c[0]?.v;
+    if (price !== undefined) {
+      document.getElementById("price").innerText = price + " грн";  
+    } else {
+      document.getElementById("price").innerText = "Помилка завантаження";  
     }
-}
-
-// Стартовая загрузка
-document.getElementById("price").innerText = "Завантаження...";
-loadPrice();
-
-// Обновление каждые 30 секунд
-setInterval(loadPrice, 30000);
+  });
 </script>
 
-<p>Ціна: <span id="price">Завантаження...</span></p>
+<p>Ціна: <span id="price">1000?</span></p>
 
 
      </div>
@@ -514,39 +469,23 @@ setInterval(loadPrice, 30000);
      </div>
      <div class="grpelem" id="u78735"><!-- custom html -->
       <script>
-const cell = "C8"; // Ячейка
-const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID таблицы
+const cell = "C9"; // Указывай нужную ячейку здесь
+const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID твоей таблицы
 
-async function loadPrice() {
-    const url = `https://spreadsheets.google.com/feeds/cells/${sheetId}/1/public/full?alt=json`;
-    
-    try {
-        const response = await fetch(url);
-        const data = await response.json();
-        const entry = data.feed.entry.find(e => e.title.$t === cell);
-        
-        if (entry) {
-            const price = entry.content.$t;
-            document.getElementById("price").innerText = price + " грн";
-        } else {
-            console.warn("Не удалось найти данные в ячейке.");
-            setTimeout(loadPrice, 1000); // Повторяем через 1 сек
-        }
-    } catch (error) {
-        console.error("Ошибка загрузки данных:", error);
-        document.getElementById("price").innerText = "Помилка завантаження";
+fetch(`https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tq=SELECT ${cell[0]} WHERE ${cell} IS NOT NULL LIMIT 1`)
+  .then(response => response.text())
+  .then(data => {
+    let json = JSON.parse(data.substr(47).slice(0, -2));
+    let price = json.table.rows[0]?.c[0]?.v;
+    if (price !== undefined) {
+      document.getElementById("price").innerText = price + " грн";  
+    } else {
+      document.getElementById("price").innerText = "Помилка завантаження";  
     }
-}
-
-// Стартовая загрузка
-document.getElementById("price").innerText = "Завантаження...";
-loadPrice();
-
-// Обновление каждые 30 секунд
-setInterval(loadPrice, 30000);
+  });
 </script>
 
-<p>Ціна: <span id="price">Завантаження...</span></p>
+<p>Ціна: <span id="price">1000?</span></p>
 
 
      </div>
