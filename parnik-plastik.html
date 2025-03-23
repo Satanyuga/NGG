@@ -424,14 +424,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="grpelem" id="u78717"><!-- custom html -->
       <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT B LIMIT 3')
+const cell = "B4"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
+
+fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`)
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let cell = json.table.rows[2]?.c[0]; // Берём B3 (третья строка)
-
-    let price = (cell && cell.v !== null) ? cell.v : "Очікування...";
-    document.getElementById("price").innerText = price + " грн";  
+    let cellData = json.table.rows[0]?.c[0]; 
+    let value = cellData?.v ?? "Немає даних"; 
+    document.getElementById("price").innerText = value + " грн";  
 })
 .catch(error => {
     console.error("Помилка завантаження даних:", error);
@@ -440,7 +441,6 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
 </script>
 
 <p>Ціна: <span id="price">Завантаження...</span></p>
-
 
 
      </div>
