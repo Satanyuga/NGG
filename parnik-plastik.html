@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=3995308414" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=4207793864" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -423,12 +423,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p>ЦЕНАААА</p>
      </div>
      <div class="grpelem" id="u78743"><!-- custom html -->
-      <div id="priceB3">Загрузка...</div>
+      <!-- Блок для ячейки B3 -->
+<div id="priceB3">Загрузка...</div>
 
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
-  const range = "Лист1!B3";
+  const range = "Лист2!B3"; // Обновили название листа
 
   const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
 
@@ -440,6 +441,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       return response.json();
     })
     .then(data => {
+      console.log("Данные для B3:", data); // Отладка
       if (!data.values || !data.values[0] || !data.values[0][0]) {
         throw new Error("Ячейка B3 пуста или данные недоступны");
       }
@@ -451,20 +453,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       document.getElementById("priceB3").innerHTML = "Ошибка: " + error.message;
     });
 </script>
+
      </div>
      <div class="grpelem" id="u78740"><!-- simple frame --></div>
     </div>
-    <div class="clearfix colelem" id="pu78724-4"><!-- group -->
-     <div class="clearfix grpelem" id="u78724-4"><!-- content -->
-      <p>ЦЕНАААА</p>
-     </div>
-     <div class="grpelem" id="u78747"><!-- custom html -->
-      <div id="priceC3">Загрузка...</div>
+    <div class="colelem" id="u78747"><!-- custom html -->
+     <!-- Блок для ячейки C3 -->
+<div id="priceC3">Загрузка...</div>
 
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
-  const range = "Лист1!C3";
+  const range = "Лист2!C3"; // Обновили название листа
 
   const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
 
@@ -476,6 +476,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       return response.json();
     })
     .then(data => {
+      console.log("Данные для C3:", data); // Отладка
       if (!data.values || !data.values[0] || !data.values[0][0]) {
         throw new Error("Ячейка C3 пуста или данные недоступны");
       }
@@ -487,19 +488,23 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       document.getElementById("priceC3").innerHTML = "Ошибка: " + error.message;
     });
 </script>
-     </div>
+
+    </div>
+    <div class="clearfix colelem" id="u78724-4"><!-- content -->
+     <p>ЦЕНАААА</p>
     </div>
     <div class="clearfix colelem" id="pu78727-4"><!-- group -->
      <div class="clearfix grpelem" id="u78727-4"><!-- content -->
       <p>ЦЕНАААА</p>
      </div>
      <div class="grpelem" id="u78751"><!-- custom html -->
-      <div id="priceD3">Загрузка...</div>
+      <!-- Блок для ячейки D3 -->
+<div id="priceD3">Загрузка...</div>
 
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
-  const range = "Лист1!D3";
+  const range = "Лист2!D3"; // Обновили название листа
 
   const url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheetId + "/values/" + range + "?key=" + apiKey;
 
@@ -511,6 +516,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       return response.json();
     })
     .then(data => {
+      console.log("Данные для D3:", data); // Отладка
       if (!data.values || !data.values[0] || !data.values[0][0]) {
         throw new Error("Ячейка D3 пуста или данные недоступны");
       }
@@ -522,6 +528,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       document.getElementById("priceD3").innerHTML = "Ошибка: " + error.message;
     });
 </script>
+
      </div>
     </div>
    </div>
