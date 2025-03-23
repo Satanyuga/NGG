@@ -424,22 +424,23 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="grpelem" id="u78717"><!-- custom html -->
       <script>
-const cell = "B4"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
+const cell = "B3"; // Ячейка
+const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID таблицы
 
 async function loadPrice() {
-    const url = `https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`;
+    const url = `https://spreadsheets.google.com/feeds/cells/${sheetId}/1/public/full?alt=json`;
     
     try {
         const response = await fetch(url);
-        const text = await response.text();
-        const json = JSON.parse(text.substr(47).slice(0, -2));
-        const cellData = json.table.rows[0]?.c[0]?.v;
-
-        if (cellData !== undefined) {
-            document.getElementById("price").innerText = cellData + " грн";
+        const data = await response.json();
+        const entry = data.feed.entry.find(e => e.title.$t === cell);
+        
+        if (entry) {
+            const price = entry.content.$t;
+            document.getElementById("price").innerText = price + " грн";
         } else {
-            console.warn("Данные пока не получены, пробую снова...");
-            setTimeout(loadPrice, 1000); // Повторная попытка через 1 сек
+            console.warn("Не удалось найти данные в ячейке.");
+            setTimeout(loadPrice, 1000); // Повторяем через 1 сек
         }
     } catch (error) {
         console.error("Ошибка загрузки данных:", error);
@@ -447,11 +448,11 @@ async function loadPrice() {
     }
 }
 
-// Запускаем загрузку сразу при открытии страницы
+// Стартовая загрузка
 document.getElementById("price").innerText = "Завантаження...";
 loadPrice();
 
-// Обновляем цену каждые 30 секунд
+// Обновление каждые 30 секунд
 setInterval(loadPrice, 30000);
 </script>
 
@@ -466,22 +467,23 @@ setInterval(loadPrice, 30000);
      </div>
      <div class="grpelem" id="u78730"><!-- custom html -->
       <script>
-const cell = "B4"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
+const cell = "B3"; // Ячейка
+const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID таблицы
 
 async function loadPrice() {
-    const url = `https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`;
+    const url = `https://spreadsheets.google.com/feeds/cells/${sheetId}/1/public/full?alt=json`;
     
     try {
         const response = await fetch(url);
-        const text = await response.text();
-        const json = JSON.parse(text.substr(47).slice(0, -2));
-        const cellData = json.table.rows[0]?.c[0]?.v;
-
-        if (cellData !== undefined) {
-            document.getElementById("price").innerText = cellData + " грн";
+        const data = await response.json();
+        const entry = data.feed.entry.find(e => e.title.$t === cell);
+        
+        if (entry) {
+            const price = entry.content.$t;
+            document.getElementById("price").innerText = price + " грн";
         } else {
-            console.warn("Данные пока не получены, пробую снова...");
-            setTimeout(loadPrice, 1000); // Повторная попытка через 1 сек
+            console.warn("Не удалось найти данные в ячейке.");
+            setTimeout(loadPrice, 1000); // Повторяем через 1 сек
         }
     } catch (error) {
         console.error("Ошибка загрузки данных:", error);
@@ -489,11 +491,11 @@ async function loadPrice() {
     }
 }
 
-// Запускаем загрузку сразу при открытии страницы
+// Стартовая загрузка
 document.getElementById("price").innerText = "Завантаження...";
 loadPrice();
 
-// Обновляем цену каждые 30 секунд
+// Обновление каждые 30 секунд
 setInterval(loadPrice, 30000);
 </script>
 
@@ -508,22 +510,23 @@ setInterval(loadPrice, 30000);
      </div>
      <div class="grpelem" id="u78735"><!-- custom html -->
       <script>
-const cell = "B4"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
+const cell = "B3"; // Ячейка
+const sheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // ID таблицы
 
 async function loadPrice() {
-    const url = `https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`;
+    const url = `https://spreadsheets.google.com/feeds/cells/${sheetId}/1/public/full?alt=json`;
     
     try {
         const response = await fetch(url);
-        const text = await response.text();
-        const json = JSON.parse(text.substr(47).slice(0, -2));
-        const cellData = json.table.rows[0]?.c[0]?.v;
-
-        if (cellData !== undefined) {
-            document.getElementById("price").innerText = cellData + " грн";
+        const data = await response.json();
+        const entry = data.feed.entry.find(e => e.title.$t === cell);
+        
+        if (entry) {
+            const price = entry.content.$t;
+            document.getElementById("price").innerText = price + " грн";
         } else {
-            console.warn("Данные пока не получены, пробую снова...");
-            setTimeout(loadPrice, 1000); // Повторная попытка через 1 сек
+            console.warn("Не удалось найти данные в ячейке.");
+            setTimeout(loadPrice, 1000); // Повторяем через 1 сек
         }
     } catch (error) {
         console.error("Ошибка загрузки данных:", error);
@@ -531,11 +534,11 @@ async function loadPrice() {
     }
 }
 
-// Запускаем загрузку сразу при открытии страницы
+// Стартовая загрузка
 document.getElementById("price").innerText = "Завантаження...";
 loadPrice();
 
-// Обновляем цену каждые 30 секунд
+// Обновление каждые 30 секунд
 setInterval(loadPrice, 30000);
 </script>
 
