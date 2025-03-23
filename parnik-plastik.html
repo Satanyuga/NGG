@@ -442,18 +442,20 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
      </div>
      <div class="grpelem" id="u78730"><!-- custom html -->
       <script>
-function loadPrice(cell) {
-    fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell} LIMIT 1`)
-    .then(response => response.text())
-    .then(data => {
-        let json = JSON.parse(data.substr(47).slice(0, -2)); 
-        let price = json.table.rows[0].c[0].v;  
+fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT B LIMIT 6')
+.then(response => response.text())
+.then(data => {
+    let json = JSON.parse(data.substr(47).slice(0, -2)); 
+    let price = json.table.rows[5]?.c[0]?.v;  // Индекс 5 - это B6
+    if (price !== undefined) {
         document.getElementById("price").innerText = price + " грн";  
-    });
-}
-
-// Просто меняй 'B6' на нужную ячейку
-loadPrice('B6');
+    } else {
+        document.getElementById("price").innerText = "Помилка завантаження";
+    }
+})
+.catch(() => {
+    document.getElementById("price").innerText = "Помилка завантаження";
+});
 </script>
 
 <p>Ціна: <span id="price">1000?</span></p>
@@ -467,18 +469,20 @@ loadPrice('B6');
      </div>
      <div class="grpelem" id="u78735"><!-- custom html -->
       <script>
-function loadPrice(cell) {
-    fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell} LIMIT 1`)
-    .then(response => response.text())
-    .then(data => {
-        let json = JSON.parse(data.substr(47).slice(0, -2)); 
-        let price = json.table.rows[0].c[0].v;  
+fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT C LIMIT 7')
+.then(response => response.text())
+.then(data => {
+    let json = JSON.parse(data.substr(47).slice(0, -2)); 
+    let price = json.table.rows[5]?.c[0]?.v;  // Индекс 5 - это B6
+    if (price !== undefined) {
         document.getElementById("price").innerText = price + " грн";  
-    });
-}
-
-// Просто меняй 'B6' на нужную ячейку
-loadPrice('C8');
+    } else {
+        document.getElementById("price").innerText = "Помилка завантаження";
+    }
+})
+.catch(() => {
+    document.getElementById("price").innerText = "Помилка завантаження";
+});
 </script>
 
 <p>Ціна: <span id="price">1000?</span></p>
