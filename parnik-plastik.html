@@ -425,7 +425,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="grpelem" id="u78717"><!-- custom html -->
       <script>
 const cell = "B4"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
-const maxAttempts = 5; // Сколько раз пытаться загрузить данные, если не получилось сразу
+const updateInterval = 30000; // Обновлять цену каждые 30 секунд
 
 function loadPrice(attempt = 1) {
     fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`)
@@ -435,24 +435,25 @@ function loadPrice(attempt = 1) {
         let cellData = json.table.rows[0]?.c[0];
         let value = cellData?.v ?? null;
 
-        if (value === null && attempt < maxAttempts) {
-            setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем попытку через 1 сек
+        if (value !== null) {
+            document.getElementById("price").innerText = value + " грн";
         } else {
-            document.getElementById("price").innerText = value !== null ? value + " грн" : "Немає даних";
+            console.warn(`Попытка ${attempt}: данные пока не получены, пробую снова...`);
+            setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем через 1 сек
         }
     })
     .catch(error => {
-        console.error("Помилка завантаження даних:", error);
-        if (attempt < maxAttempts) {
-            setTimeout(() => loadPrice(attempt + 1), 1000); // Пробуем ещё раз
-        } else {
-            document.getElementById("price").innerText = "Помилка завантаження";
-        }
+        console.error("Ошибка загрузки данных:", error);
+        setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем через 1 сек
     });
 }
 
+// Стартовая загрузка
 document.getElementById("price").innerText = "Завантаження...";
 loadPrice();
+
+// Автоматическое обновление цены каждые 30 секунд
+setInterval(loadPrice, updateInterval);
 </script>
 
 <p>Ціна: <span id="price">Завантаження...</span></p>
@@ -466,16 +467,40 @@ loadPrice();
      </div>
      <div class="grpelem" id="u78730"><!-- custom html -->
       <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT B LIMIT 6')
-.then(response => response.text())
-.then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[0].c[0].v;  
-    document.getElementById("price").innerText = price + " грн";  
-});
+const cell = "B6"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
+const updateInterval = 30000; // Обновлять цену каждые 30 секунд
+
+function loadPrice(attempt = 1) {
+    fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`)
+    .then(response => response.text())
+    .then(data => {
+        let json = JSON.parse(data.substr(47).slice(0, -2)); 
+        let cellData = json.table.rows[0]?.c[0];
+        let value = cellData?.v ?? null;
+
+        if (value !== null) {
+            document.getElementById("price").innerText = value + " грн";
+        } else {
+            console.warn(`Попытка ${attempt}: данные пока не получены, пробую снова...`);
+            setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем через 1 сек
+        }
+    })
+    .catch(error => {
+        console.error("Ошибка загрузки данных:", error);
+        setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем через 1 сек
+    });
+}
+
+// Стартовая загрузка
+document.getElementById("price").innerText = "Завантаження...";
+loadPrice();
+
+// Автоматическое обновление цены каждые 30 секунд
+setInterval(loadPrice, updateInterval);
 </script>
 
-<p>Ціна: <span id="price">1000?</span></p>
+<p>Ціна: <span id="price">Завантаження...</span></p>
+
 
      </div>
     </div>
@@ -485,16 +510,40 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
      </div>
      <div class="grpelem" id="u78735"><!-- custom html -->
       <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT C LIMIT 8')
-.then(response => response.text())
-.then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[0].c[0].v;  
-    document.getElementById("price").innerText = price + " грн";  
-});
+const cell = "C8"; // Здесь указываешь нужную ячейку (например, "C5", "D10")
+const updateInterval = 30000; // Обновлять цену каждые 30 секунд
+
+function loadPrice(attempt = 1) {
+    fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell[0]} OFFSET ${parseInt(cell.substring(1)) - 1} LIMIT 1`)
+    .then(response => response.text())
+    .then(data => {
+        let json = JSON.parse(data.substr(47).slice(0, -2)); 
+        let cellData = json.table.rows[0]?.c[0];
+        let value = cellData?.v ?? null;
+
+        if (value !== null) {
+            document.getElementById("price").innerText = value + " грн";
+        } else {
+            console.warn(`Попытка ${attempt}: данные пока не получены, пробую снова...`);
+            setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем через 1 сек
+        }
+    })
+    .catch(error => {
+        console.error("Ошибка загрузки данных:", error);
+        setTimeout(() => loadPrice(attempt + 1), 1000); // Повторяем через 1 сек
+    });
+}
+
+// Стартовая загрузка
+document.getElementById("price").innerText = "Завантаження...";
+loadPrice();
+
+// Автоматическое обновление цены каждые 30 секунд
+setInterval(loadPrice, updateInterval);
 </script>
 
-<p>Ціна: <span id="price">1000?</span></p>
+<p>Ціна: <span id="price">Завантаження...</span></p>
+
 
      </div>
     </div>
