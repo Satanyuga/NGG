@@ -424,18 +424,21 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p>ЦЕНАААА</p>
      </div>
      <div class="grpelem" id="u78717"><!-- custom html -->
-      <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT%20B%20LIMIT%201')
-.then(response => response.text())
-.then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[0].c[0].v;  // Б3 — это первая строка, индекс 0
-    document.getElementById("price").innerText = price + " грн";  
-});
+      <div id="priceB3">Загрузка...</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.2/tabletop.min.js"></script>
+<script>
+  const publicSpreadsheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml";
+
+  Tabletop.init({
+    key: publicSpreadsheetUrl,
+    callback: function(data, tabletop) {
+      const value = data[2][1]; // B3 = 3-я строка (индекс 2), 2-я колонка (индекс 1)
+      document.getElementById("priceB3").innerHTML = value;
+    },
+    simpleSheet: true
+  });
 </script>
-
-<p>Ціна: <span id="price">1000?</span></p>
-
 
      </div>
     </div>
@@ -444,18 +447,21 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
       <p>ЦЕНАААА</p>
      </div>
      <div class="grpelem" id="u78730"><!-- custom html -->
-      <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT%20B%20LIMIT%206')
-.then(response => response.text())
-.then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[5].c[0].v;  // B6 — индекс 5
-    document.getElementById("price").innerText = price + " грн";  
-});
+      <div id="priceB6">Загрузка...</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.2/tabletop.min.js"></script>
+<script>
+  const publicSpreadsheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml";
+
+  Tabletop.init({
+    key: publicSpreadsheetUrl,
+    callback: function(data, tabletop) {
+      const value = data[5][1]; // B6 = 6-я строка (индекс 5), 2-я колонка (индекс 1)
+      document.getElementById("priceB6").innerHTML = value;
+    },
+    simpleSheet: true
+  });
 </script>
-
-<p>Ціна: <span id="price">1000?</span></p>
-
 
      </div>
     </div>
@@ -464,18 +470,21 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
       <p>ЦЕНАААА</p>
      </div>
      <div class="grpelem" id="u78735"><!-- custom html -->
-      <script>
-fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT%20C%20LIMIT%208')
-.then(response => response.text())
-.then(data => {
-    let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[7].c[0].v;  // C8 — индекс 7
-    document.getElementById("price").innerText = price + " грн";  
-});
+      <div id="priceC8">Загрузка...</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.2/tabletop.min.js"></script>
+<script>
+  const publicSpreadsheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml";
+
+  Tabletop.init({
+    key: publicSpreadsheetUrl,
+    callback: function(data, tabletop) {
+      const value = data[7][2]; // C8 = 8-я строка (индекс 7), 3-я колонка (индекс 2)
+      document.getElementById("priceC8").innerHTML = value;
+    },
+    simpleSheet: true
+  });
 </script>
-
-<p>Ціна: <span id="price">1000?</span></p>
-
 
      </div>
     </div>
