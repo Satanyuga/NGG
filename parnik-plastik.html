@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=307832495" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=114369112" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -446,17 +446,17 @@ function loadPrice(cell) {
     fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell} LIMIT 1`)
     .then(response => response.text())
     .then(data => {
-        let json = JSON.parse(data.substr(47).slice(0, -2));
-        let price = json.table.rows[0].c[0].v;
+        let json = JSON.parse(data.substr(47).slice(0, -2)); 
+        let price = json.table.rows[0].c[0].v;  
         document.getElementById("price").innerText = price + " грн";  
     });
 }
 
-// Вызывай функцию с нужной ячейкой, например, B3
+// Просто меняй 'B6' на нужную ячейку
 loadPrice('B6');
 </script>
 
-<p>Ціна: <span id="price">загрузка</span></p>
+<p>Ціна: <span id="price">1000?</span></p>
 
 
      </div>
@@ -471,17 +471,17 @@ function loadPrice(cell) {
     fetch(`https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw/gviz/tq?tq=SELECT ${cell} LIMIT 1`)
     .then(response => response.text())
     .then(data => {
-        let json = JSON.parse(data.substr(47).slice(0, -2));
-        let price = json.table.rows[0].c[0].v;
+        let json = JSON.parse(data.substr(47).slice(0, -2)); 
+        let price = json.table.rows[0].c[0].v;  
         document.getElementById("price").innerText = price + " грн";  
     });
 }
 
-// Вызывай функцию с нужной ячейкой, например, B3
+// Просто меняй 'B6' на нужную ячейку
 loadPrice('C8');
 </script>
 
-<p>Ціна: <span id="price">пагади</span></p>
+<p>Ціна: <span id="price">1000?</span></p>
 
 
      </div>
