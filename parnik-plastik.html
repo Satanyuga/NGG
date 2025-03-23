@@ -428,12 +428,20 @@ fetch('https://docs.google.com/spreadsheets/d/1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeL
 .then(response => response.text())
 .then(data => {
     let json = JSON.parse(data.substr(47).slice(0, -2)); 
-    let price = json.table.rows[0].c[0].v;  
+    let cell = json.table.rows[2]?.c[0]; // Берём B3 (третья строка)
+
+    let price = (cell && cell.v !== null) ? cell.v : "Очікування...";
     document.getElementById("price").innerText = price + " грн";  
+})
+.catch(error => {
+    console.error("Помилка завантаження даних:", error);
+    document.getElementById("price").innerText = "Помилка завантаження";
 });
 </script>
 
-<p>Ціна: <span id="price">1000?</span></p>
+<p>Ціна: <span id="price">Завантаження...</span></p>
+
+
 
      </div>
     </div>
