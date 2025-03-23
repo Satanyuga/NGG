@@ -461,8 +461,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
-  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // Правильный ID
-  const range = "Лист1!B6"; // Лист1 и ячейка B6
+  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
+  const range = "Лист1!B6";
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
@@ -474,7 +474,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       return response.json();
     })
     .then(data => {
-      const value = data.values[0][0]; // Значение ячейки B6
+      if (!data.values || !data.values[0] || !data.values[0][0]) {
+        throw new Error("Ячейка B6 пуста или данные недоступны");
+      }
+      let value = data.values[0][0]; // Значение ячейки B6
+      // Убираем пробелы и приводим к числовому формату
+      value = value.replace(/\s/g, ""); // Удаляем пробелы
       document.getElementById("priceB6").innerHTML = value;
     })
     .catch(error => {
@@ -494,8 +499,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
-  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw"; // Правильный ID
-  const range = "Лист1!C8"; // Лист1 и ячейка C8
+  const spreadsheetId = "1Mv9cHYWbJQ8lpTN42WZvtcJXJVJqOWBeLKccfaVS0iw";
+  const range = "Лист1!C8";
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
@@ -507,6 +512,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       return response.json();
     })
     .then(data => {
+      if (!data.values || !data.values[0] || !data.values[0][0]) {
+        throw new Error("Ячейка C8 пуста или данные недоступны");
+      }
       const value = data.values[0][0]; // Значение ячейки C8
       document.getElementById("priceC8").innerHTML = value;
     })
