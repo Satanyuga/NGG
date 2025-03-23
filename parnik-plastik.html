@@ -426,18 +426,23 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="grpelem" id="u78717"><!-- custom html -->
       <div id="priceB3">Загрузка...</div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.2/tabletop.min.js"></script>
 <script>
-  const publicSpreadsheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml";
+  const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
+  const spreadsheetId = "2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH";
+  const range = "Sheet1!B3"; // Лист и ячейка B3
 
-  Tabletop.init({
-    key: publicSpreadsheetUrl,
-    callback: function(data, tabletop) {
-      const value = data[2][1]; // B3 = 3-я строка (индекс 2), 2-я колонка (индекс 1)
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      const value = data.values[0][0]; // Значение ячейки B3
       document.getElementById("priceB3").innerHTML = value;
-    },
-    simpleSheet: true
-  });
+    })
+    .catch(error => {
+      console.error("Ошибка:", error);
+      document.getElementById("priceB3").innerHTML = "Ошибка загрузки";
+    });
 </script>
 
      </div>
@@ -449,18 +454,23 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="grpelem" id="u78730"><!-- custom html -->
       <div id="priceB6">Загрузка...</div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.2/tabletop.min.js"></script>
 <script>
-  const publicSpreadsheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml";
+  const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
+  const spreadsheetId = "2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH";
+  const range = "Sheet1!B6"; // Лист и ячейка B6
 
-  Tabletop.init({
-    key: publicSpreadsheetUrl,
-    callback: function(data, tabletop) {
-      const value = data[5][1]; // B6 = 6-я строка (индекс 5), 2-я колонка (индекс 1)
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      const value = data.values[0][0]; // Значение ячейки B6
       document.getElementById("priceB6").innerHTML = value;
-    },
-    simpleSheet: true
-  });
+    })
+    .catch(error => {
+      console.error("Ошибка:", error);
+      document.getElementById("priceB6").innerHTML = "Ошибка загрузки";
+    });
 </script>
 
      </div>
@@ -472,18 +482,23 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="grpelem" id="u78735"><!-- custom html -->
       <div id="priceC8">Загрузка...</div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.2/tabletop.min.js"></script>
 <script>
-  const publicSpreadsheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pubhtml";
+  const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
+  const spreadsheetId = "2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH";
+  const range = "Sheet1!C8"; // Лист и ячейка C8
 
-  Tabletop.init({
-    key: publicSpreadsheetUrl,
-    callback: function(data, tabletop) {
-      const value = data[7][2]; // C8 = 8-я строка (индекс 7), 3-я колонка (индекс 2)
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      const value = data.values[0][0]; // Значение ячейки C8
       document.getElementById("priceC8").innerHTML = value;
-    },
-    simpleSheet: true
-  });
+    })
+    .catch(error => {
+      console.error("Ошибка:", error);
+      document.getElementById("priceC8").innerHTML = "Ошибка загрузки";
+    });
 </script>
 
      </div>
