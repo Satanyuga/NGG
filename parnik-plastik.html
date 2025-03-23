@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=3784159570" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-plastik.css?crc=4095200464" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -429,19 +429,24 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH";
-  const range = "Sheet1!B3"; // Лист и ячейка B3
+  const range = "Лист1!B3"; // Исправлено: Sheet1 → Лист1
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
   fetch(url)
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then(data => {
       const value = data.values[0][0]; // Значение ячейки B3
       document.getElementById("priceB3").innerHTML = value;
     })
     .catch(error => {
-      console.error("Ошибка:", error);
-      document.getElementById("priceB3").innerHTML = "Ошибка загрузки";
+      console.error("Ошибка при загрузке B3:", error.message);
+      document.getElementById("priceB3").innerHTML = "Ошибка: " + error.message;
     });
 </script>
 
@@ -457,19 +462,24 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH";
-  const range = "Sheet1!B6"; // Лист и ячейка B6
+  const range = "Лист1!B6"; // Исправлено: Sheet1 → Лист1
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
   fetch(url)
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then(data => {
       const value = data.values[0][0]; // Значение ячейки B6
       document.getElementById("priceB6").innerHTML = value;
     })
     .catch(error => {
-      console.error("Ошибка:", error);
-      document.getElementById("priceB6").innerHTML = "Ошибка загрузки";
+      console.error("Ошибка при загрузке B6:", error.message);
+      document.getElementById("priceB6").innerHTML = "Ошибка: " + error.message;
     });
 </script>
 
@@ -485,19 +495,24 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <script>
   const apiKey = "AIzaSyClou4LtijhX5bmCAgrrnyLjhMjhNCeACE";
   const spreadsheetId = "2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH";
-  const range = "Sheet1!C8"; // Лист и ячейка C8
+  const range = "Лист1!C8"; // Исправлено: Sheet1 → Лист1
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
   fetch(url)
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then(data => {
       const value = data.values[0][0]; // Значение ячейки C8
       document.getElementById("priceC8").innerHTML = value;
     })
     .catch(error => {
-      console.error("Ошибка:", error);
-      document.getElementById("priceC8").innerHTML = "Ошибка загрузки";
+      console.error("Ошибка при загрузке C8:", error.message);
+      document.getElementById("priceC8").innerHTML = "Ошибка: " + error.message;
     });
 </script>
 
