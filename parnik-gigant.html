@@ -26,8 +26,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Парник &quot;Гігант&quot;</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=407709863"/>
-  <link rel="stylesheet" type="text/css" href="css/parnik-gigant.css?crc=4183083192" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=123058621"/>
+  <link rel="stylesheet" type="text/css" href="css/parnik-gigant.css?crc=4276556665" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -190,6 +190,394 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
     </div>
     <div class="shadow clearfix colelem" id="u7379"><!-- group -->
+     <div class="shadow clearfix grpelem" id="u46241"><!-- group -->
+      <div class="clearfix grpelem" id="u78779-13"><!-- content -->
+       <ul class="list0 nls-None" id="u78779-11">
+        <li id="u78779-2">3М ДОВЖИНА, ЩІЛЬНІСТЬ 60 (Г/М2) -</li>
+        <li id="u78779-4">3М ДОВЖИНА, ЩІЛЬНІСТЬ 60 (Г/М2) -</li>
+        <li id="u78779-6">3М ДОВЖИНА, ЩІЛЬНІСТЬ 60 (Г/М2) -</li>
+        <li id="u78779-8">3М ДОВЖИНА, ЩІЛЬНІСТЬ 60 (Г/М2) -</li>
+        <li id="u78779-10">3М ДОВЖИНА, ЩІЛЬНІСТЬ 60 (Г/М2) -</li>
+       </ul>
+      </div>
+      <div class="clearfix grpelem" id="pu78782"><!-- group -->
+       <div class="grpelem" id="u78782"><!-- custom html -->
+        <div class="cell-value" data-cell="C425">Завантаження...</div>
+
+<script>
+  (function() {
+    const scriptTag = document.currentScript;
+    const cellElement = scriptTag.previousElementSibling;
+
+    if (!cellElement || !cellElement.classList.contains("cell-value")) {
+      console.error("Не найден элемент с классом cell-value перед скриптом");
+      return;
+    }
+
+    const cellAddress = cellElement.getAttribute("data-cell");
+    const uniqueClass = "cell-value-" + cellAddress.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    cellElement.classList.add(uniqueClass);
+
+    const style = document.createElement("style");
+    style.textContent = `
+      .${uniqueClass} {
+        font-size: 17px;
+        color: red;
+        font-weight: bold;
+        margin: 10px 0;
+        font-family: Arial, sans-serif;
+      }
+    `;
+    document.head.appendChild(style);
+
+    const timestamp = new Date().getTime();
+    const sheetUrl = `https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv&t=${timestamp}`;
+
+    function columnToIndex(col) {
+      let index = 0;
+      for (let i = 0; i < col.length; i++) {
+        index = index * 26 + (col.charCodeAt(i) - 65 + 1);
+      }
+      return index - 1;
+    }
+
+    const colMatch = cellAddress.match(/[A-Z]+/);
+    const rowMatch = cellAddress.match(/\d+/);
+    if (!colMatch || !rowMatch) {
+      cellElement.innerHTML = "Ошибка: Неверный формат ячейки";
+      return;
+    }
+    const colIndex = columnToIndex(colMatch[0]);
+    const rowIndex = parseInt(rowMatch[0], 10) - 1;
+
+    fetch(sheetUrl, {
+      cache: "no-store" // Отключаем кэш
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP error! Status: " + response.status);
+        }
+        return response.text();
+      })
+      .then(csvText => {
+        const rows = csvText.split("\n").map(row => row.split(","));
+        if (rows.length <= rowIndex || rows[rowIndex].length <= colIndex) {
+          throw new Error("Ячейка " + cellAddress + " не найдена в таблице");
+        }
+        const value = rows[rowIndex][colIndex] || "Ячейка пуста";
+        cellElement.innerHTML = value;
+      })
+      .catch(error => {
+        console.error("Ошибка при загрузке " + cellAddress + ":", error.message);
+        cellElement.innerHTML = "Ошибка: " + error.message;
+      });
+  })();
+</script>
+
+       </div>
+       <div class="grpelem" id="u78787"><!-- custom html -->
+        <div class="cell-value" data-cell="C426">Завантаження...</div>
+
+<script>
+  (function() {
+    const scriptTag = document.currentScript;
+    const cellElement = scriptTag.previousElementSibling;
+
+    if (!cellElement || !cellElement.classList.contains("cell-value")) {
+      console.error("Не найден элемент с классом cell-value перед скриптом");
+      return;
+    }
+
+    const cellAddress = cellElement.getAttribute("data-cell");
+    const uniqueClass = "cell-value-" + cellAddress.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    cellElement.classList.add(uniqueClass);
+
+    const style = document.createElement("style");
+    style.textContent = `
+      .${uniqueClass} {
+        font-size: 17px;
+        color: red;
+        font-weight: bold;
+        margin: 10px 0;
+        font-family: Arial, sans-serif;
+      }
+    `;
+    document.head.appendChild(style);
+
+    const timestamp = new Date().getTime();
+    const sheetUrl = `https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv&t=${timestamp}`;
+
+    function columnToIndex(col) {
+      let index = 0;
+      for (let i = 0; i < col.length; i++) {
+        index = index * 26 + (col.charCodeAt(i) - 65 + 1);
+      }
+      return index - 1;
+    }
+
+    const colMatch = cellAddress.match(/[A-Z]+/);
+    const rowMatch = cellAddress.match(/\d+/);
+    if (!colMatch || !rowMatch) {
+      cellElement.innerHTML = "Ошибка: Неверный формат ячейки";
+      return;
+    }
+    const colIndex = columnToIndex(colMatch[0]);
+    const rowIndex = parseInt(rowMatch[0], 10) - 1;
+
+    fetch(sheetUrl, {
+      cache: "no-store" // Отключаем кэш
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP error! Status: " + response.status);
+        }
+        return response.text();
+      })
+      .then(csvText => {
+        const rows = csvText.split("\n").map(row => row.split(","));
+        if (rows.length <= rowIndex || rows[rowIndex].length <= colIndex) {
+          throw new Error("Ячейка " + cellAddress + " не найдена в таблице");
+        }
+        const value = rows[rowIndex][colIndex] || "Ячейка пуста";
+        cellElement.innerHTML = value;
+      })
+      .catch(error => {
+        console.error("Ошибка при загрузке " + cellAddress + ":", error.message);
+        cellElement.innerHTML = "Ошибка: " + error.message;
+      });
+  })();
+</script>
+
+       </div>
+       <div class="grpelem" id="u78792"><!-- custom html -->
+        <div class="cell-value" data-cell="C427">Завантаження...</div>
+
+<script>
+  (function() {
+    const scriptTag = document.currentScript;
+    const cellElement = scriptTag.previousElementSibling;
+
+    if (!cellElement || !cellElement.classList.contains("cell-value")) {
+      console.error("Не найден элемент с классом cell-value перед скриптом");
+      return;
+    }
+
+    const cellAddress = cellElement.getAttribute("data-cell");
+    const uniqueClass = "cell-value-" + cellAddress.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    cellElement.classList.add(uniqueClass);
+
+    const style = document.createElement("style");
+    style.textContent = `
+      .${uniqueClass} {
+        font-size: 17px;
+        color: red;
+        font-weight: bold;
+        margin: 10px 0;
+        font-family: Arial, sans-serif;
+      }
+    `;
+    document.head.appendChild(style);
+
+    const timestamp = new Date().getTime();
+    const sheetUrl = `https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv&t=${timestamp}`;
+
+    function columnToIndex(col) {
+      let index = 0;
+      for (let i = 0; i < col.length; i++) {
+        index = index * 26 + (col.charCodeAt(i) - 65 + 1);
+      }
+      return index - 1;
+    }
+
+    const colMatch = cellAddress.match(/[A-Z]+/);
+    const rowMatch = cellAddress.match(/\d+/);
+    if (!colMatch || !rowMatch) {
+      cellElement.innerHTML = "Ошибка: Неверный формат ячейки";
+      return;
+    }
+    const colIndex = columnToIndex(colMatch[0]);
+    const rowIndex = parseInt(rowMatch[0], 10) - 1;
+
+    fetch(sheetUrl, {
+      cache: "no-store" // Отключаем кэш
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP error! Status: " + response.status);
+        }
+        return response.text();
+      })
+      .then(csvText => {
+        const rows = csvText.split("\n").map(row => row.split(","));
+        if (rows.length <= rowIndex || rows[rowIndex].length <= colIndex) {
+          throw new Error("Ячейка " + cellAddress + " не найдена в таблице");
+        }
+        const value = rows[rowIndex][colIndex] || "Ячейка пуста";
+        cellElement.innerHTML = value;
+      })
+      .catch(error => {
+        console.error("Ошибка при загрузке " + cellAddress + ":", error.message);
+        cellElement.innerHTML = "Ошибка: " + error.message;
+      });
+  })();
+</script>
+
+       </div>
+       <div class="grpelem" id="u78797"><!-- custom html -->
+        <div class="cell-value" data-cell="C428">Завантаження...</div>
+
+<script>
+  (function() {
+    const scriptTag = document.currentScript;
+    const cellElement = scriptTag.previousElementSibling;
+
+    if (!cellElement || !cellElement.classList.contains("cell-value")) {
+      console.error("Не найден элемент с классом cell-value перед скриптом");
+      return;
+    }
+
+    const cellAddress = cellElement.getAttribute("data-cell");
+    const uniqueClass = "cell-value-" + cellAddress.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    cellElement.classList.add(uniqueClass);
+
+    const style = document.createElement("style");
+    style.textContent = `
+      .${uniqueClass} {
+        font-size: 17px;
+        color: red;
+        font-weight: bold;
+        margin: 10px 0;
+        font-family: Arial, sans-serif;
+      }
+    `;
+    document.head.appendChild(style);
+
+    const timestamp = new Date().getTime();
+    const sheetUrl = `https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv&t=${timestamp}`;
+
+    function columnToIndex(col) {
+      let index = 0;
+      for (let i = 0; i < col.length; i++) {
+        index = index * 26 + (col.charCodeAt(i) - 65 + 1);
+      }
+      return index - 1;
+    }
+
+    const colMatch = cellAddress.match(/[A-Z]+/);
+    const rowMatch = cellAddress.match(/\d+/);
+    if (!colMatch || !rowMatch) {
+      cellElement.innerHTML = "Ошибка: Неверный формат ячейки";
+      return;
+    }
+    const colIndex = columnToIndex(colMatch[0]);
+    const rowIndex = parseInt(rowMatch[0], 10) - 1;
+
+    fetch(sheetUrl, {
+      cache: "no-store" // Отключаем кэш
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP error! Status: " + response.status);
+        }
+        return response.text();
+      })
+      .then(csvText => {
+        const rows = csvText.split("\n").map(row => row.split(","));
+        if (rows.length <= rowIndex || rows[rowIndex].length <= colIndex) {
+          throw new Error("Ячейка " + cellAddress + " не найдена в таблице");
+        }
+        const value = rows[rowIndex][colIndex] || "Ячейка пуста";
+        cellElement.innerHTML = value;
+      })
+      .catch(error => {
+        console.error("Ошибка при загрузке " + cellAddress + ":", error.message);
+        cellElement.innerHTML = "Ошибка: " + error.message;
+      });
+  })();
+</script>
+
+       </div>
+       <div class="grpelem" id="u78802"><!-- custom html -->
+        <div class="cell-value" data-cell="C429">Завантаження...</div>
+
+<script>
+  (function() {
+    const scriptTag = document.currentScript;
+    const cellElement = scriptTag.previousElementSibling;
+
+    if (!cellElement || !cellElement.classList.contains("cell-value")) {
+      console.error("Не найден элемент с классом cell-value перед скриптом");
+      return;
+    }
+
+    const cellAddress = cellElement.getAttribute("data-cell");
+    const uniqueClass = "cell-value-" + cellAddress.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    cellElement.classList.add(uniqueClass);
+
+    const style = document.createElement("style");
+    style.textContent = `
+      .${uniqueClass} {
+        font-size: 17px;
+        color: red;
+        font-weight: bold;
+        margin: 10px 0;
+        font-family: Arial, sans-serif;
+      }
+    `;
+    document.head.appendChild(style);
+
+    const timestamp = new Date().getTime();
+    const sheetUrl = `https://docs.google.com/spreadsheets/d/e/2PACX-1vQC9jGRpRQzRa6kvqJoXedeOYIav_y0AX6lpzBkkCiW2gD57OJoSlEVtoHdb7Rz4PyBIa44NUr3s8dH/pub?gid=0&output=csv&t=${timestamp}`;
+
+    function columnToIndex(col) {
+      let index = 0;
+      for (let i = 0; i < col.length; i++) {
+        index = index * 26 + (col.charCodeAt(i) - 65 + 1);
+      }
+      return index - 1;
+    }
+
+    const colMatch = cellAddress.match(/[A-Z]+/);
+    const rowMatch = cellAddress.match(/\d+/);
+    if (!colMatch || !rowMatch) {
+      cellElement.innerHTML = "Ошибка: Неверный формат ячейки";
+      return;
+    }
+    const colIndex = columnToIndex(colMatch[0]);
+    const rowIndex = parseInt(rowMatch[0], 10) - 1;
+
+    fetch(sheetUrl, {
+      cache: "no-store" // Отключаем кэш
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP error! Status: " + response.status);
+        }
+        return response.text();
+      })
+      .then(csvText => {
+        const rows = csvText.split("\n").map(row => row.split(","));
+        if (rows.length <= rowIndex || rows[rowIndex].length <= colIndex) {
+          throw new Error("Ячейка " + cellAddress + " не найдена в таблице");
+        }
+        const value = rows[rowIndex][colIndex] || "Ячейка пуста";
+        cellElement.innerHTML = value;
+      })
+      .catch(error => {
+        console.error("Ошибка при загрузке " + cellAddress + ":", error.message);
+        cellElement.innerHTML = "Ошибка: " + error.message;
+      });
+  })();
+</script>
+
+       </div>
+      </div>
+     </div>
      <div class="clearfix grpelem" id="u7355"><!-- column -->
       <div class="position_content" id="u7355_position_content">
        <img class="colelem" id="u7359-4" alt="Для замовлення товару, Ви можете зв'язатись з нами через будь-який зручний для вас месенджер. Натиснувши на нього" width="318" height="67" src="images/u7359-4.png?crc=381762733"/><!-- rasterized frame -->
@@ -209,25 +597,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
        <img class="colelem" id="u7358-5" alt="Або зателефонувати нам за номерами: +380664615815 +380983667506" width="311" height="44" src="images/u7358-5.png?crc=36848052"/><!-- rasterized frame -->
       </div>
-     </div>
-     <div class="shadow grpelem" id="u46241"><!-- simple frame --></div>
-     <div class="grpelem" id="u46242"><!-- custom html -->
-      <style>
-    .cropped-image {
-        overflow: hidden; /* Обрезать содержимое, выходящее за пределы */
-    }
-
-    .cropped-image img {
-        width: 100%; /* Ширина изображения будет равна ширине контейнера */
-        height: auto; /* Высота изображения будет автоматически подстраиваться */
-        margin-left: -20px; /* Сдвигаем изображение влево на 50px */
-    }
-</style>
-
-<div class="cropped-image">
-    <img src="https://github.com/Satanyuga/Cenik/blob/main/Shadow/parniki/parnik%20agrolider%20gigant.jpg?raw=true" alt="" />
-</div>
-
      </div>
     </div>
     <div class="shadow rounded-corners colelem" id="u7354"><!-- simple frame --></div>
