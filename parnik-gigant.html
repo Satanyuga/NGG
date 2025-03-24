@@ -228,15 +228,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         margin: 2px 0;
         line-height: 1.2;
         padding: 0;
-        display: block; /* Делаем блоком, чтобы он занимал всю строку */
-        width: 70px; /* Фиксированная ширина блока */
-        min-height: 18px; /* Минимальная высота, чтобы блоки не "прыгали" */
-        text-align: left; /* Выравнивание текста */
+        display: block;
+        width: 70px;
+        min-height: 18px;
+        text-align: left;
         font-family: Arial, sans-serif;
-        position: relative; /* Фиксируем положение */
-        overflow: hidden; /* Скрываем лишний текст, если он не помещается */
-        white-space: nowrap; /* Текст не переносится на новую строку */
-        text-overflow: ellipsis; /* Добавляем многоточие, если текст слишком длинный */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        position: absolute;
+        right: 0;
       }
     `;
     document.head.appendChild(style);
@@ -262,7 +263,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     const rowIndex = parseInt(rowMatch[0], 10) - 1;
 
     fetch(sheetUrl, {
-      cache: "no-store" // Отключаем кэш
+      cache: "no-store"
     })
       .then(response => {
         if (!response.ok) {
@@ -313,15 +314,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         margin: 2px 0;
         line-height: 1.2;
         padding: 0;
-        display: block; /* Делаем блоком, чтобы он занимал всю строку */
-        width: 70px; /* Фиксированная ширина блока */
-        min-height: 18px; /* Минимальная высота, чтобы блоки не "прыгали" */
-        text-align: left; /* Выравнивание текста */
+        display: block;
+        width: 70px;
+        min-height: 18px;
+        text-align: left;
         font-family: Arial, sans-serif;
-        position: relative; /* Фиксируем положение */
-        overflow: hidden; /* Скрываем лишний текст, если он не помещается */
-        white-space: nowrap; /* Текст не переносится на новую строку */
-        text-overflow: ellipsis; /* Добавляем многоточие, если текст слишком длинный */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        position: absolute;
+        right: 0;
       }
     `;
     document.head.appendChild(style);
@@ -347,7 +349,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     const rowIndex = parseInt(rowMatch[0], 10) - 1;
 
     fetch(sheetUrl, {
-      cache: "no-store" // Отключаем кэш
+      cache: "no-store"
     })
       .then(response => {
         if (!response.ok) {
@@ -398,15 +400,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         margin: 2px 0;
         line-height: 1.2;
         padding: 0;
-        display: block; /* Делаем блоком, чтобы он занимал всю строку */
-        width: 70px; /* Фиксированная ширина блока */
-        min-height: 18px; /* Минимальная высота, чтобы блоки не "прыгали" */
-        text-align: left; /* Выравнивание текста */
+        display: block;
+        width: 70px;
+        min-height: 18px;
+        text-align: left;
         font-family: Arial, sans-serif;
-        position: relative; /* Фиксируем положение */
-        overflow: hidden; /* Скрываем лишний текст, если он не помещается */
-        white-space: nowrap; /* Текст не переносится на новую строку */
-        text-overflow: ellipsis; /* Добавляем многоточие, если текст слишком длинный */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        position: absolute;
+        right: 0;
       }
     `;
     document.head.appendChild(style);
@@ -432,7 +435,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     const rowIndex = parseInt(rowMatch[0], 10) - 1;
 
     fetch(sheetUrl, {
-      cache: "no-store" // Отключаем кэш
+      cache: "no-store"
     })
       .then(response => {
         if (!response.ok) {
@@ -483,15 +486,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         margin: 2px 0;
         line-height: 1.2;
         padding: 0;
-        display: block; /* Делаем блоком, чтобы он занимал всю строку */
-        width: 70px; /* Фиксированная ширина блока */
-        min-height: 18px; /* Минимальная высота, чтобы блоки не "прыгали" */
-        text-align: left; /* Выравнивание текста */
+        display: block;
+        width: 70px;
+        min-height: 18px;
+        text-align: left;
         font-family: Arial, sans-serif;
-        position: relative; /* Фиксируем положение */
-        overflow: hidden; /* Скрываем лишний текст, если он не помещается */
-        white-space: nowrap; /* Текст не переносится на новую строку */
-        text-overflow: ellipsis; /* Добавляем многоточие, если текст слишком длинный */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        position: absolute;
+        right: 0;
       }
     `;
     document.head.appendChild(style);
@@ -517,7 +521,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     const rowIndex = parseInt(rowMatch[0], 10) - 1;
 
     fetch(sheetUrl, {
-      cache: "no-store" // Отключаем кэш
+      cache: "no-store"
     })
       .then(response => {
         if (!response.ok) {
@@ -568,15 +572,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         margin: 2px 0;
         line-height: 1.2;
         padding: 0;
-        display: block; /* Делаем блоком, чтобы он занимал всю строку */
-        width: 70px; /* Фиксированная ширина блока */
-        min-height: 18px; /* Минимальная высота, чтобы блоки не "прыгали" */
-        text-align: left; /* Выравнивание текста */
+        display: block;
+        width: 70px;
+        min-height: 18px;
+        text-align: left;
         font-family: Arial, sans-serif;
-        position: relative; /* Фиксируем положение */
-        overflow: hidden; /* Скрываем лишний текст, если он не помещается */
-        white-space: nowrap; /* Текст не переносится на новую строку */
-        text-overflow: ellipsis; /* Добавляем многоточие, если текст слишком длинный */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        position: absolute;
+        right: 0;
       }
     `;
     document.head.appendChild(style);
@@ -602,7 +607,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     const rowIndex = parseInt(rowMatch[0], 10) - 1;
 
     fetch(sheetUrl, {
-      cache: "no-store" // Отключаем кэш
+      cache: "no-store"
     })
       .then(response => {
         if (!response.ok) {
